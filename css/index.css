@@ -15,6 +15,18 @@ h6 {
   color: #263843;
 }
 
+.btn.btn-primary {
+  background-color: #f15c2a;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 15px 30px;
+  border: none;
+}
+.btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:not(:disabled):not(.disabled):active {
+  background-color: #da410e;
+}
+
 .container-fluid .name-block {
   font-size: 20px;
   padding: 10px 20px;
@@ -58,6 +70,7 @@ h6 {
 
 section.slider {
   position: relative;
+  color: #29424e;
 }
 section.slider img {
   height: 794px;
@@ -67,6 +80,16 @@ section.slider img {
 section.slider .slider-text {
   position: absolute;
   top: 50%;
+  max-width: 50%;
+}
+section.slider .slider-text .sub-header {
+  font-weight: 600;
+  font-size: 19px;
+}
+section.slider .slider-text .header {
+  font-weight: 600;
+  font-size: 42px;
+  margin: 25px 0 40px 0;
 }
 
 /*# sourceMappingURL=index.css.map */

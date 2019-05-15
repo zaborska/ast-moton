@@ -1,5 +1,6 @@
 section.slider {
   position: relative;
+  color: $slider-text-color;
 
   img {
     height: 794px;
@@ -10,5 +11,17 @@ section.slider {
   .slider-text {
     position: absolute;
     top: 50%;
+    max-width: 50%;
+
+    .sub-header {
+      font-weight: $semi-bold;
+      font-size: 19px;
+    }
+
+    .header {
+      font-weight: $semi-bold;
+      font-size: 42px;
+      margin: 25px 0 40px 0;
+    }
   }
 }

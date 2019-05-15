@@ -3,7 +3,7 @@
     font-size: 20px;
     padding: 10px 20px;
     border-bottom: 1px solid $border-color;
-    font-weight: 600;
+    font-weight: $semi-bold;
   }
 
   .header-logo {
@@ -34,7 +34,7 @@
 
           &.nav-active-item {
             a {
-              font-weight: 700;
+              font-weight: $bold;
             }
           }
         }

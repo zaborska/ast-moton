@@ -13,3 +13,19 @@ h6 {
   font-family: $font-raleway;
   color: $base-font-color;
 }
+
+// Buttons
+.btn.btn-primary {
+  background-color: $brand-primary;
+  text-transform: uppercase;
+  font-weight: $semi-bold;
+  letter-spacing: 2px;
+  padding: 15px 30px;
+  border: none;
+
+  &:hover,
+  &:active,
+  &:not(:disabled):not(.disabled):active {
+    background-color: darken($brand-primary, 10%);
+  }
+}
