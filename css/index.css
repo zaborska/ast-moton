@@ -22,9 +22,22 @@ h6 {
   letter-spacing: 2px;
   padding: 15px 30px;
   border: none;
+  border-radius: 8px;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:not(:disabled):not(.disabled):active {
   background-color: #da410e;
+}
+
+.box {
+  border-radius: 2px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.11);
+  padding: 34px 20px;
+}
+.box .box-header {
+  border-bottom: 1px solid rgba(112, 112, 112, 0.16);
+  padding-bottom: 14px;
+  font-weight: 600;
 }
 
 .container-fluid .name-block {
@@ -90,6 +103,23 @@ section.slider .slider-text .header {
   font-weight: 600;
   font-size: 42px;
   margin: 25px 0 40px 0;
+}
+
+main {
+  background-color: #f9f9f9;
+  padding: 30px;
+}
+main .categories {
+  width: 236px;
+}
+main .popular-recent {
+  width: 305px;
+}
+main .posts {
+  flex: 1;
+}
+main .posts .post {
+  margin: 0 20px 20px;
 }
 
 /*# sourceMappingURL=index.css.map */

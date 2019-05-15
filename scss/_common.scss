@@ -22,10 +22,25 @@ h6 {
   letter-spacing: 2px;
   padding: 15px 30px;
   border: none;
+  border-radius: 8px;
 
   &:hover,
   &:active,
   &:not(:disabled):not(.disabled):active {
     background-color: darken($brand-primary, 10%);
+  }
+}
+
+// BOX - reusable component
+.box {
+  border-radius: 2px;
+  background-color: $box-bg;
+  box-shadow: $box-el-shadow;
+  padding: 34px 20px;
+
+  .box-header {
+    border-bottom: 1px solid rgba($border-color, 0.16);
+    padding-bottom: 14px;
+    font-weight: $semi-bold;
   }
 }

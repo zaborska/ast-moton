@@ -1,0 +1,20 @@
+main {
+  background-color: $main-bg;
+  padding: 30px;
+
+  .categories {
+    width: 236px;
+  }
+
+  .popular-recent {
+    width: 305px;
+  }
+
+  .posts {
+    flex: 1;
+
+    .post {
+      margin: 0 20px 20px;
+    }
+  }
+}
