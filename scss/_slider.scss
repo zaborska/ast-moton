@@ -1,0 +1,14 @@
+section.slider {
+  position: relative;
+
+  img {
+    height: 794px;
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+  .slider-text {
+    position: absolute;
+    top: 50%;
+  }
+}

@@ -41,12 +41,14 @@
       }
     }
 
-    .search {
-      display: flex;
-      .border {
+    .search-wrapper {
+      color: $border-color;
+      font-size: 20px;
+
+      .divider {
         border-right: 1px solid $border-color;
-        height: 42px;
         width: 1px;
+        margin: 0 16px;
       }
     }
   }

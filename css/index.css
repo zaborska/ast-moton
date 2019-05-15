@@ -46,13 +46,27 @@ h6 {
 .container-fluid .header-logo nav ul li.nav-active-item a {
   font-weight: 700;
 }
-.container-fluid .header-logo .search {
-  display: flex;
+.container-fluid .header-logo .search-wrapper {
+  color: #707070;
+  font-size: 20px;
 }
-.container-fluid .header-logo .search .border {
+.container-fluid .header-logo .search-wrapper .divider {
   border-right: 1px solid #707070;
-  height: 42px;
   width: 1px;
+  margin: 0 16px;
+}
+
+section.slider {
+  position: relative;
+}
+section.slider img {
+  height: 794px;
+  max-width: 100%;
+  object-fit: cover;
+}
+section.slider .slider-text {
+  position: absolute;
+  top: 50%;
 }
 
 /*# sourceMappingURL=index.css.map */
