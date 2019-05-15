@@ -37,6 +37,7 @@ h6 {
 .box .box-header {
   border-bottom: 1px solid rgba(112, 112, 112, 0.16);
   padding-bottom: 14px;
+  margin-bottom: 18px;
   font-weight: 600;
 }
 
