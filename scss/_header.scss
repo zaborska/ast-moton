@@ -1,0 +1,40 @@
+.container-fluid {
+  .name-logo {
+    font-size: 20px;
+    font-family: $font-raleway;
+    color: $base-font-color;
+    padding: 5px;
+  }
+  .line {
+    border-bottom: 1px solid $line-color;
+    width: 100%;
+  }
+  .header-logo {
+    display: flex;
+    margin-top: 26px;
+    img {
+      height: 68.41px;
+      width: 225px;
+    }
+    nav {
+      font-family: $font-raleway;
+      font-size: 22px;
+      a {
+        color: $font-color;
+        &:hover {
+          text-decoration: none;
+          color: $base-font-color;
+        }
+      }
+    }
+
+    .search {
+      display: flex;
+      .border {
+        border-right: solid $line-color;
+        height: 42px;
+        width: 1px;
+      }
+    }
+  }
+}
