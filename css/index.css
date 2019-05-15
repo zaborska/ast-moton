@@ -41,6 +41,48 @@ h6 {
   font-weight: 600;
 }
 
+/* The radio */
+label.radio {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* Hide the browser's default radio button */
+  /* Create a custom radio button */
+  /* On mouse-over, add a grey background color */
+  /* When the radio button is checked, add a blue background */
+}
+label.radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+label.radio .checkmark {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  height: 12px;
+  width: 12px;
+  border: 2px solid #c3ccd3;
+  border-radius: 50%;
+}
+label.radio:hover input ~ .checkmark {
+  background-color: #c3ccd3;
+}
+label.radio input:checked ~ .checkmark {
+  background-color: #f15c2a;
+  border-color: #f15c2a;
+}
+label.radio input:checked ~ .txt {
+  color: #263843;
+  font-weight: 700;
+}
+
 .container-fluid .name-block {
   font-size: 20px;
   padding: 10px 20px;

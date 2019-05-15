@@ -1,0 +1,46 @@
+/* The radio */
+label.radio {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  /* Hide the browser's default radio button */
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    height: 12px;
+    width: 12px;
+    border: 2px solid $radio-border;
+    border-radius: 50%;
+  }
+
+  /* On mouse-over, add a grey background color */
+  &:hover input ~ .checkmark {
+    background-color: $radio-border;
+  }
+
+  /* When the radio button is checked, add a blue background */
+  input:checked ~ .checkmark {
+    background-color: $brand-primary;
+    border-color: $brand-primary;
+  }
+
+  input:checked ~ .txt {
+    color: $base-font-color;
+    font-weight: $bold;
+  }
+}
