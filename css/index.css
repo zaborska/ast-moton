@@ -26,6 +26,11 @@ a:hover {
   text-decoration: none;
 }
 
+.secondary-text {
+  color: #c3ccd3;
+  font-size: 12px;
+}
+
 .btn.btn-primary {
   background-color: #f15c2a;
   text-transform: uppercase;
@@ -174,14 +179,13 @@ main .posts {
 }
 main .posts .post {
   margin: 0 20px 20px;
+  padding: 14px;
 }
 main .posts .post .post-img-wrapper {
   box-shadow: 0 0 2px rgba(125, 145, 148, 0.48);
   padding: 2px;
 }
 main .posts .post .date-info {
-  color: #c3ccd3;
-  font-size: 12px;
   margin-bottom: 22px;
 }
 main .posts .post p {
@@ -199,6 +203,20 @@ main .posts .post .users {
 }
 main .posts .post .users li:nth-child(n+2) {
   margin-left: -15px;
+}
+main .posts .post .post-social a {
+  color: inherit;
+  margin-left: 10px;
+}
+main .posts .post .post-social a i {
+  margin-right: 8px;
+  font-size: 18px;
+}
+main .posts .post .post-social a.like-btn:hover i {
+  color: #f25b84;
+}
+main .posts .post .post-social a.comment-btn:hover i {
+  color: #3546a5;
 }
 
 /*# sourceMappingURL=index.css.map */

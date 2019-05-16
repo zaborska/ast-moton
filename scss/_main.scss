@@ -15,6 +15,7 @@ main {
 
     .post {
       margin: 0 20px 20px;
+      padding: 14px;
 
       .post-img-wrapper {
         box-shadow: 0 0 2px rgba($img-wrapper-shadow, 0.48);
@@ -22,8 +23,6 @@ main {
       }
 
       .date-info {
-        color: $radio-border;
-        font-size: 12px;
         margin-bottom: 22px;
       }
       p {
@@ -42,6 +41,29 @@ main {
 
         li:nth-child(n + 2) {
           margin-left: -15px;
+        }
+      }
+
+      .post-social {
+        a {
+          color: inherit;
+          margin-left: 10px;
+
+          i {
+            margin-right: 8px;
+            font-size: 18px;
+          }
+
+          &.like-btn:hover {
+            i {
+              color: $brand-danger;
+            }
+          }
+          &.comment-btn:hover {
+            i {
+              color: $comment-color;
+            }
+          }
         }
       }
     }

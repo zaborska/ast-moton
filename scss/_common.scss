@@ -4,6 +4,7 @@ body {
   font-size: 14px;
 }
 
+// Typography
 h1,
 h2,
 h3,
@@ -25,6 +26,11 @@ a {
     text-decoration: none;
   }
 }
+.secondary-text {
+  color: $radio-border;
+  font-size: 12px;
+}
+
 // Buttons
 .btn.btn-primary {
   background-color: $brand-primary;
