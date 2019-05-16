@@ -30,6 +30,11 @@ a {
   color: $radio-border;
   font-size: 12px;
 }
+p {
+  color: $secondary-font-color;
+  line-height: 26px;
+  margin: 0;
+}
 
 // Buttons
 .btn.btn-primary {

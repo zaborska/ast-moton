@@ -1,8 +1,13 @@
 @import "variables";
 
+// general
 @import "common";
 @import "forms";
 
 @import "header";
 @import "slider";
 @import "main";
+
+// components
+@import "posts";
+@import "pagination";

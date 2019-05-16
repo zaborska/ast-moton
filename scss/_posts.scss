@@ -1,0 +1,94 @@
+.posts {
+  flex: 1;
+
+  .post {
+    margin: 0 20px 20px;
+    padding: 14px;
+
+    .post-label {
+      background-color: $brand-primary;
+      padding: 8px 15px;
+      color: #fff;
+      font-size: 10px;
+      font-weight: $bold;
+      position: absolute;
+      &.black {
+        background-color: black;
+      }
+    }
+
+    .post-img-wrapper {
+      box-shadow: 0 0 2px rgba($img-wrapper-shadow, 0.48);
+      padding: 2px;
+
+      img {
+        max-width: 100%;
+      }
+    }
+
+    .date-info {
+      margin-bottom: 22px;
+    }
+    p {
+      margin-bottom: 25px;
+    }
+
+    .post-menu {
+      color: $radio-border;
+    }
+    .users {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      margin-left: 6px;
+
+      li:nth-child(n + 2) {
+        margin-left: -15px;
+      }
+    }
+
+    .post-social {
+      a {
+        color: inherit;
+        margin-left: 10px;
+
+        i {
+          margin-right: 8px;
+          font-size: 18px;
+        }
+
+        &.like-btn:hover {
+          i {
+            color: $brand-danger;
+          }
+        }
+        &.comment-btn:hover {
+          i {
+            color: $comment-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+.post-small {
+  display: flex;
+  margin-bottom: 28px;
+
+  & > img {
+    width: 56px;
+    height: 56px;
+    margin-right: 14px;
+  }
+
+  & > div {
+    flex: 1;
+  }
+
+  &:hover {
+    p {
+      text-decoration: underline;
+    }
+  }
+}
