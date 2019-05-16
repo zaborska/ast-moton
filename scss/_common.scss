@@ -22,6 +22,7 @@ h2 {
 }
 
 a {
+  color: inherit;
   &:hover {
     text-decoration: none;
   }
@@ -34,14 +35,6 @@ p {
   color: $secondary-font-color;
   line-height: 26px;
   margin: 0;
-}
-
-ul.nav-centered {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  list-style-type: none;
 }
 
 // Buttons
@@ -74,4 +67,14 @@ ul.nav-centered {
     margin-bottom: 18px;
     font-weight: $semi-bold;
   }
+}
+
+// Navigation
+
+ul.nav-centered {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
 }

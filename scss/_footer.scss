@@ -1,5 +1,5 @@
 footer {
-  padding: 40px;
+  padding: 50px;
   background-color: $footer-bg;
 
   .img-logo img {
@@ -11,13 +11,18 @@ footer {
       li {
         color: $slider-text-color;
         margin: 0 25px;
+        font-size: 20px;
 
-        a {
+        a:hover {
           color: inherit;
+          text-decoration: underline;
         }
       }
     }
+
     nav.social {
+      margin: 40px 0;
+
       li {
         color: $radio-border;
         background-color: rgba($radio-border, 0.13);
@@ -32,6 +37,28 @@ footer {
           color: inherit;
           width: 100%;
           height: 100%;
+          display: block;
+          font-size: 19px;
+
+          &:hover {
+            color: darken($radio-border, 20%);
+          }
+        }
+      }
+    }
+
+    nav.policies {
+      li {
+        margin: 0 20px;
+        font-size: 12px;
+        color: $slider-text-color;
+
+        a {
+          color: inherit;
+          letter-spacing: 2px;
+          &:hover {
+            color: darken($slider-text-color, 20%);
+          }
         }
       }
     }
