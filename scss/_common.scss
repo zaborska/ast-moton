@@ -36,6 +36,14 @@ p {
   margin: 0;
 }
 
+ul.nav-centered {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
 // Buttons
 .btn.btn-primary {
   background-color: $brand-primary;
