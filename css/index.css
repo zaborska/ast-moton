@@ -229,5 +229,44 @@ main .posts .post .post-social a.like-btn:hover i {
 main .posts .post .post-social a.comment-btn:hover i {
   color: #3546a5;
 }
+main .pagination-wrapper {
+  margin: 0 20px 20px;
+  position: relative;
+}
+main .pagination-wrapper .next {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  line-height: 27px;
+  color: #f15c2a;
+}
+main .pagination-wrapper .pagination {
+  justify-content: center;
+}
+main .pagination-wrapper .pagination li {
+  width: 30px;
+  height: 30px;
+  line-height: 27px;
+  border: 1px solid #c3ccd3;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 5px;
+  color: #768791;
+}
+main .pagination-wrapper .pagination li:hover {
+  background-color: #768791;
+  color: white;
+}
+main .pagination-wrapper .pagination li a {
+  color: inherit;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+main .pagination-wrapper .pagination li.active {
+  background-color: #f15c2a;
+  color: white;
+  border-color: #f15c2a;
+}
 
 /*# sourceMappingURL=index.css.map */
