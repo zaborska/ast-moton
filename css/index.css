@@ -189,6 +189,9 @@ main .posts .post .post-label {
   font-weight: 700;
   position: absolute;
 }
+main .posts .post .post-label.black {
+  background-color: black;
+}
 main .posts .post .post-img-wrapper {
   box-shadow: 0 0 2px rgba(125, 145, 148, 0.48);
   padding: 2px;
