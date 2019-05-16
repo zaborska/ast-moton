@@ -13,7 +13,18 @@ h6 {
   font-family: $font-raleway;
   color: $base-font-color;
 }
+h2 {
+  font-weight: $extra-bold;
+  font-size: 27px;
+  margin-top: 27px;
+  margin-bottom: 15px;
+}
 
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
 // Buttons
 .btn.btn-primary {
   background-color: $brand-primary;

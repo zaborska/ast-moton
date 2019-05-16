@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,600,700,800");
 body {
   font-family: "Raleway", sans-serif;
   color: #263843;
@@ -13,6 +13,17 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
   color: #263843;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 27px;
+  margin-top: 27px;
+  margin-bottom: 15px;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .btn.btn-primary {
@@ -163,6 +174,31 @@ main .posts {
 }
 main .posts .post {
   margin: 0 20px 20px;
+}
+main .posts .post .post-img-wrapper {
+  box-shadow: 0 0 2px rgba(125, 145, 148, 0.48);
+  padding: 2px;
+}
+main .posts .post .date-info {
+  color: #c3ccd3;
+  font-size: 12px;
+  margin-bottom: 22px;
+}
+main .posts .post p {
+  color: #768791;
+  line-height: 26px;
+}
+main .posts .post .post-menu {
+  color: #c3ccd3;
+}
+main .posts .post .users {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 6px;
+}
+main .posts .post .users li:nth-child(n+2) {
+  margin-left: -15px;
 }
 
 /*# sourceMappingURL=index.css.map */
