@@ -17,6 +17,15 @@ main {
       margin: 0 20px 20px;
       padding: 14px;
 
+      .post-label {
+        background-color: $brand-primary;
+        padding: 8px 15px;
+        color: #fff;
+        font-size: 10px;
+        font-weight: $bold;
+        position: absolute;
+      }
+
       .post-img-wrapper {
         box-shadow: 0 0 2px rgba($img-wrapper-shadow, 0.48);
         padding: 2px;

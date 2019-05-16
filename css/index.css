@@ -181,6 +181,14 @@ main .posts .post {
   margin: 0 20px 20px;
   padding: 14px;
 }
+main .posts .post .post-label {
+  background-color: #f15c2a;
+  padding: 8px 15px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+}
 main .posts .post .post-img-wrapper {
   box-shadow: 0 0 2px rgba(125, 145, 148, 0.48);
   padding: 2px;
