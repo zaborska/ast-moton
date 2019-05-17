@@ -64,17 +64,22 @@ main.products-page {
       background-size: cover;
       background-position: center;
       text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
 
       h2 {
-        color: $box-bg;
+        color: white;
         font-size: 40px;
         font-weight: $semi-bold;
+        text-shadow: $txt-shadow;
       }
       div {
-        color: #e3e3e3;
+        color: $light-text;
         font-size: 18px;
         font-weight: $semi-bold;
         margin-bottom: 10px;
+        text-shadow: $txt-shadow;
       }
       .btn {
         padding-left: 70px;

@@ -330,16 +330,21 @@ main.products-page {
       height: 450px;
       background-size: cover;
       background-position: center;
-      text-align: center; }
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
       main.products-page .products .tune-your-ride h2 {
-        color: #ffffff;
+        color: white;
         font-size: 40px;
-        font-weight: 600; }
+        font-weight: 600;
+        text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5); }
       main.products-page .products .tune-your-ride div {
         color: #e3e3e3;
         font-size: 18px;
         font-weight: 600;
-        margin-bottom: 10px; }
+        margin-bottom: 10px;
+        text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5); }
       main.products-page .products .tune-your-ride .btn {
         padding-left: 70px;
         padding-right: 70px; }
