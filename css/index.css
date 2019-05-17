@@ -2,8 +2,7 @@
 body {
   font-family: "Raleway", sans-serif;
   color: #263843;
-  font-size: 14px;
-}
+  font-size: 14px; }
 
 h1,
 h2,
@@ -12,33 +11,27 @@ h4,
 h5,
 h6 {
   font-family: "Raleway", sans-serif;
-  color: #263843;
-}
+  color: #263843; }
 
 h2 {
   font-weight: 800;
   font-size: 27px;
   margin-top: 27px;
-  margin-bottom: 15px;
-}
+  margin-bottom: 15px; }
 
 a {
-  color: inherit;
-}
-a:hover {
-  text-decoration: none;
-}
+  color: inherit; }
+  a:hover {
+    text-decoration: none; }
 
 .secondary-text {
   color: #c3ccd3;
-  font-size: 12px;
-}
+  font-size: 12px; }
 
 p {
   color: #768791;
   line-height: 26px;
-  margin: 0;
-}
+  margin: 0; }
 
 .btn.btn-primary {
   background-color: #f15c2a;
@@ -47,32 +40,27 @@ p {
   letter-spacing: 2px;
   padding: 15px 30px;
   border: none;
-  border-radius: 8px;
-}
-.btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:not(:disabled):not(.disabled):active {
-  background-color: #da410e;
-}
+  border-radius: 8px; }
+  .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #da410e; }
 
 .box {
   border-radius: 2px;
   background-color: #ffffff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.11);
-  padding: 34px 20px;
-}
-.box .box-header {
-  border-bottom: 1px solid rgba(112, 112, 112, 0.16);
-  padding-bottom: 14px;
-  margin-bottom: 18px;
-  font-weight: 600;
-}
+  padding: 34px 20px; }
+  .box .box-header {
+    border-bottom: 1px solid rgba(112, 112, 112, 0.16);
+    padding-bottom: 14px;
+    margin-bottom: 18px;
+    font-weight: 600; }
 
 ul.nav-centered {
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
-  list-style-type: none;
-}
+  list-style-type: none; }
 
 /* The radio */
 label.radio {
@@ -88,350 +76,272 @@ label.radio {
   /* Hide the browser's default radio button */
   /* Create a custom radio button */
   /* On mouse-over, add a grey background color */
-  /* When the radio button is checked, add a blue background */
-}
-label.radio input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-}
-label.radio .checkmark {
-  position: absolute;
-  top: 4px;
-  left: 0;
-  height: 12px;
-  width: 12px;
-  border: 2px solid #c3ccd3;
-  border-radius: 50%;
-}
-label.radio:hover input ~ .checkmark {
-  background-color: #c3ccd3;
-}
-label.radio input:checked ~ .checkmark {
-  background-color: #f15c2a;
-  border-color: #f15c2a;
-}
-label.radio input:checked ~ .txt {
-  color: #263843;
-  font-weight: 700;
-}
+  /* When the radio button is checked, add a blue background */ }
+  label.radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer; }
+  label.radio .checkmark {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    height: 12px;
+    width: 12px;
+    border: 2px solid #c3ccd3;
+    border-radius: 50%; }
+  label.radio:hover input ~ .checkmark {
+    background-color: #c3ccd3; }
+  label.radio input:checked ~ .checkmark {
+    background-color: #f15c2a;
+    border-color: #f15c2a; }
+  label.radio input:checked ~ .txt {
+    color: #263843;
+    font-weight: 700; }
 
 .container-fluid .name-block {
   font-size: 20px;
   padding: 10px 20px;
   border-bottom: 1px solid #707070;
-  font-weight: 600;
-}
+  font-weight: 600; }
+
 .container-fluid .header-logo {
-  padding: 25px 20px;
-}
-.container-fluid .header-logo img {
-  width: 225px;
-}
-.container-fluid .header-logo nav {
-  font-size: 22px;
-}
-.container-fluid .header-logo nav ul {
-  margin: 0;
-}
-.container-fluid .header-logo nav ul li {
-  margin: 0 25px;
-}
-.container-fluid .header-logo nav ul li a {
-  color: #768791;
-}
-.container-fluid .header-logo nav ul li:hover a, .container-fluid .header-logo nav ul li.nav-active-item a {
-  text-decoration: none;
-  color: #263843;
-}
-.container-fluid .header-logo nav ul li.nav-active-item a {
-  font-weight: 700;
-}
-.container-fluid .header-logo .search-wrapper {
-  color: #707070;
-  font-size: 20px;
-}
-.container-fluid .header-logo .search-wrapper .divider {
-  border-right: 1px solid #707070;
-  width: 1px;
-  margin: 0 16px;
-}
+  padding: 25px 20px; }
+  .container-fluid .header-logo img {
+    width: 225px; }
+  .container-fluid .header-logo nav {
+    font-size: 22px; }
+    .container-fluid .header-logo nav ul {
+      margin: 0; }
+      .container-fluid .header-logo nav ul li {
+        margin: 0 25px; }
+        .container-fluid .header-logo nav ul li a {
+          color: #768791; }
+        .container-fluid .header-logo nav ul li:hover a, .container-fluid .header-logo nav ul li.nav-active-item a {
+          text-decoration: none;
+          color: #263843; }
+        .container-fluid .header-logo nav ul li.nav-active-item a {
+          font-weight: 700; }
+  .container-fluid .header-logo .search-wrapper {
+    color: #707070;
+    font-size: 20px; }
+    .container-fluid .header-logo .search-wrapper .divider {
+      border-right: 1px solid #707070;
+      width: 1px;
+      margin: 0 16px; }
 
 section.slider {
   position: relative;
-  color: #29424e;
-}
-section.slider img {
-  height: 794px;
-  max-width: 100%;
-  object-fit: cover;
-}
-section.slider .slider-text {
-  position: absolute;
-  top: 50%;
-  max-width: 50%;
-}
-section.slider .slider-text .sub-header {
-  font-weight: 600;
-  font-size: 19px;
-}
-section.slider .slider-text .header {
-  font-weight: 600;
-  font-size: 42px;
-  margin: 25px 0 40px 0;
-}
+  color: #29424e; }
+  section.slider img {
+    height: 794px;
+    max-width: 100%;
+    object-fit: cover; }
+  section.slider .slider-text {
+    position: absolute;
+    top: 50%;
+    max-width: 50%; }
+    section.slider .slider-text .sub-header {
+      font-weight: 600;
+      font-size: 19px; }
+    section.slider .slider-text .header {
+      font-weight: 600;
+      font-size: 42px;
+      margin: 25px 0 40px 0; }
 
 main.home-main {
   background-color: #f9f9f9;
-  padding: 30px 0;
-}
-main.home-main .categories {
-  width: 236px;
-}
-main.home-main .popular-recent {
-  width: 305px;
-}
+  padding: 30px 0; }
+  main.home-main .categories {
+    width: 236px; }
+  main.home-main .popular-recent {
+    width: 305px; }
 
 footer {
   padding: 50px;
-  background-color: #ffffff;
-}
-footer .img-logo img {
-  max-width: 200px;
-}
-footer .footer-navs nav.website-menu li {
-  color: #29424e;
-  margin: 0 25px;
-  font-size: 20px;
-}
-footer .footer-navs nav.website-menu li a:hover {
-  color: inherit;
-  text-decoration: underline;
-}
-footer .footer-navs nav.social {
-  margin: 40px 0;
-}
-footer .footer-navs nav.social li {
-  color: #c3ccd3;
-  background-color: rgba(195, 204, 211, 0.13);
-  margin: 0 5px;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
-  border-radius: 50%;
-}
-footer .footer-navs nav.social li a {
-  color: inherit;
-  width: 100%;
-  height: 100%;
-  display: block;
-  font-size: 19px;
-}
-footer .footer-navs nav.social li a:hover {
-  color: #889aa8;
-}
-footer .footer-navs nav.policies li {
-  margin: 0 20px;
-  font-size: 12px;
-  color: #29424e;
-}
-footer .footer-navs nav.policies li a {
-  color: inherit;
-  letter-spacing: 2px;
-}
-footer .footer-navs nav.policies li a:hover {
-  color: #06090b;
-}
+  background-color: #ffffff; }
+  footer .img-logo img {
+    max-width: 200px; }
+  footer .footer-navs nav.website-menu li {
+    color: #29424e;
+    margin: 0 25px;
+    font-size: 20px; }
+    footer .footer-navs nav.website-menu li a:hover {
+      color: inherit;
+      text-decoration: underline; }
+  footer .footer-navs nav.social {
+    margin: 40px 0; }
+    footer .footer-navs nav.social li {
+      color: #c3ccd3;
+      background-color: rgba(195, 204, 211, 0.13);
+      margin: 0 5px;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      border-radius: 50%; }
+      footer .footer-navs nav.social li a {
+        color: inherit;
+        width: 100%;
+        height: 100%;
+        display: block;
+        font-size: 19px; }
+        footer .footer-navs nav.social li a:hover {
+          color: #889aa8; }
+  footer .footer-navs nav.policies li {
+    margin: 0 20px;
+    font-size: 12px;
+    color: #29424e; }
+    footer .footer-navs nav.policies li a {
+      color: inherit;
+      letter-spacing: 2px; }
+      footer .footer-navs nav.policies li a:hover {
+        color: #06090b; }
 
 .posts {
-  flex: 1;
-}
-.posts .post {
-  margin: 0 20px 20px;
-  padding: 14px;
-}
-.posts .post .post-label {
-  background-color: #f15c2a;
-  padding: 8px 15px;
-  color: #fff;
-  font-size: 10px;
-  font-weight: 700;
-  position: absolute;
-}
-.posts .post .post-label.black {
-  background-color: black;
-}
-.posts .post .post-img-wrapper {
-  box-shadow: 0 0 2px rgba(125, 145, 148, 0.48);
-  padding: 2px;
-}
-.posts .post .post-img-wrapper img {
-  max-width: 100%;
-}
-.posts .post .date-info {
-  margin-bottom: 22px;
-}
-.posts .post p {
-  margin-bottom: 25px;
-}
-.posts .post .post-menu {
-  color: #c3ccd3;
-}
-.posts .post .users {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  margin-left: 6px;
-}
-.posts .post .users li:nth-child(n+2) {
-  margin-left: -15px;
-}
-.posts .post .post-social a {
-  color: inherit;
-  margin-left: 10px;
-}
-.posts .post .post-social a i {
-  margin-right: 8px;
-  font-size: 18px;
-}
-.posts .post .post-social a.like-btn:hover i {
-  color: #f25b84;
-}
-.posts .post .post-social a.comment-btn:hover i {
-  color: #3546a5;
-}
+  flex: 1; }
+  .posts .post {
+    margin: 0 20px 20px;
+    padding: 14px; }
+    .posts .post .post-label {
+      background-color: #f15c2a;
+      padding: 8px 15px;
+      color: #fff;
+      font-size: 10px;
+      font-weight: 700;
+      position: absolute; }
+      .posts .post .post-label.black {
+        background-color: black; }
+    .posts .post .post-img-wrapper {
+      box-shadow: 0 0 2px rgba(125, 145, 148, 0.48);
+      padding: 2px; }
+      .posts .post .post-img-wrapper img {
+        max-width: 100%; }
+    .posts .post .date-info {
+      margin-bottom: 22px; }
+    .posts .post p {
+      margin-bottom: 25px; }
+    .posts .post .post-menu {
+      color: #c3ccd3; }
+    .posts .post .users {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      margin-left: 6px; }
+      .posts .post .users li:nth-child(n + 2) {
+        margin-left: -15px; }
+    .posts .post .post-social a {
+      color: inherit;
+      margin-left: 10px; }
+      .posts .post .post-social a i {
+        margin-right: 8px;
+        font-size: 18px; }
+      .posts .post .post-social a.like-btn:hover i {
+        color: #f25b84; }
+      .posts .post .post-social a.comment-btn:hover i {
+        color: #3546a5; }
 
 .post-small {
   display: flex;
-  margin-bottom: 28px;
-}
-.post-small > img {
-  width: 56px;
-  height: 56px;
-  margin-right: 14px;
-}
-.post-small > div {
-  flex: 1;
-}
-.post-small:hover p {
-  text-decoration: underline;
-}
+  margin-bottom: 28px; }
+  .post-small > img {
+    width: 56px;
+    height: 56px;
+    margin-right: 14px; }
+  .post-small > div {
+    flex: 1; }
+  .post-small:hover p {
+    text-decoration: underline; }
 
 .pagination-wrapper {
   margin: 0 20px 20px;
-  position: relative;
-}
-.pagination-wrapper .next {
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  line-height: 27px;
-  color: #f15c2a;
-}
-.pagination-wrapper .pagination {
-  justify-content: center;
-}
-.pagination-wrapper .pagination li {
-  width: 30px;
-  height: 30px;
-  line-height: 27px;
-  border: 1px solid #c3ccd3;
-  border-radius: 50%;
-  text-align: center;
-  margin: 0 5px;
-  color: #768791;
-}
-.pagination-wrapper .pagination li:hover {
-  background-color: #768791;
-  color: white;
-}
-.pagination-wrapper .pagination li a {
-  color: inherit;
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-.pagination-wrapper .pagination li.active {
-  background-color: #f15c2a;
-  color: white;
-  border-color: #f15c2a;
-}
+  position: relative; }
+  .pagination-wrapper .next {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    line-height: 27px;
+    color: #f15c2a; }
+  .pagination-wrapper .pagination {
+    justify-content: center; }
+    .pagination-wrapper .pagination li {
+      width: 30px;
+      height: 30px;
+      line-height: 27px;
+      border: 1px solid #c3ccd3;
+      border-radius: 50%;
+      text-align: center;
+      margin: 0 5px;
+      color: #768791; }
+      .pagination-wrapper .pagination li:hover {
+        background-color: #768791;
+        color: white; }
+      .pagination-wrapper .pagination li a {
+        color: inherit;
+        width: 100%;
+        height: 100%;
+        display: block; }
+      .pagination-wrapper .pagination li.active {
+        background-color: #f15c2a;
+        color: white;
+        border-color: #f15c2a; }
 
 main.products-page {
   background-color: #f9f9f9;
-  padding: 100px 0;
-}
-main.products-page h2 {
-  margin: 0;
-}
-main.products-page .products {
-  background-color: white;
-  padding: 40px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.11);
-}
-main.products-page .products .products-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 171px;
-  grid-gap: 100px;
-  margin: 60px 0 100px;
-}
-main.products-page .products .products-grid img {
-  max-width: 100%;
-}
-main.products-page .products .description {
-  margin-bottom: 50px;
-}
-main.products-page .products .description img {
-  max-width: 50%;
-}
-main.products-page .products .description img.right-img {
-  float: right;
-  margin-left: 25px;
-}
-main.products-page .products .description img.left-img {
-  float: left;
-  margin-right: 25px;
-}
-main.products-page .products .text-products {
-  margin-top: 92px;
-  margin-bottom: 10px;
-}
-main.products-page .products .text-products div {
-  font-weight: 600;
-  font-size: 18px;
-  margin-bottom: 14px;
-}
-main.products-page .products .text-products p {
-  font-size: 20px;
-  margin-bottom: 50px;
-}
-main.products-page .products .text-products .btn {
-  padding-left: 70px;
-  padding-right: 70px;
-}
-main.products-page .products .tune-your-ride {
-  background-image: url(../img/products-post/porsche-mode-new.jpg);
-  height: 450px;
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-}
-main.products-page .products .tune-your-ride h2 {
-  color: #ffffff;
-  font-size: 40px;
-  font-weight: 600;
-}
-main.products-page .products .tune-your-ride div {
-  color: #e3e3e3;
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-main.products-page .products .tune-your-ride .btn {
-  padding-left: 70px;
-  padding-right: 70px;
-}
+  padding: 100px 0; }
+  main.products-page h2 {
+    margin: 0; }
+  main.products-page .products {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.11); }
+    main.products-page .products .products-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 171px;
+      grid-gap: 100px;
+      margin: 60px 0 100px; }
+      main.products-page .products .products-grid img {
+        max-width: 100%; }
+    main.products-page .products .description {
+      margin-bottom: 50px; }
+      main.products-page .products .description img {
+        max-width: 50%; }
+        main.products-page .products .description img.right-img {
+          float: right;
+          margin-left: 25px; }
+        main.products-page .products .description img.left-img {
+          float: left;
+          margin-right: 25px; }
+    main.products-page .products .text-products {
+      margin-top: 92px;
+      margin-bottom: 10px; }
+      main.products-page .products .text-products div {
+        font-weight: 600;
+        font-size: 18px;
+        margin-bottom: 14px; }
+      main.products-page .products .text-products p {
+        font-size: 20px;
+        margin-bottom: 50px; }
+      main.products-page .products .text-products .btn {
+        padding-left: 70px;
+        padding-right: 70px; }
+    main.products-page .products .tune-your-ride {
+      background-image: url(../img/products-post/porsche-mode-new.jpg);
+      height: 450px;
+      background-size: cover;
+      background-position: center;
+      text-align: center; }
+      main.products-page .products .tune-your-ride h2 {
+        color: #ffffff;
+        font-size: 40px;
+        font-weight: 600; }
+      main.products-page .products .tune-your-ride div {
+        color: #e3e3e3;
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 10px; }
+      main.products-page .products .tune-your-ride .btn {
+        padding-left: 70px;
+        padding-right: 70px; }
 
 /*# sourceMappingURL=index.css.map */
