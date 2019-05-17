@@ -394,5 +394,44 @@ main.products-page .products .description img.left-img {
   float: left;
   margin-right: 25px;
 }
+main.products-page .products .text-products {
+  margin-top: 92px;
+  margin-bottom: 10px;
+}
+main.products-page .products .text-products div {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+main.products-page .products .text-products p {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+main.products-page .products .text-products .btn {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+main.products-page .products .tune-your-ride {
+  background-image: url(../img/products-post/porsche-mode-new.jpg);
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+main.products-page .products .tune-your-ride h2 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 600;
+}
+main.products-page .products .tune-your-ride div {
+  color: #e3e3e3;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+main.products-page .products .tune-your-ride .btn {
+  padding-left: 70px;
+  padding-right: 70px;
+}
 
 /*# sourceMappingURL=index.css.map */
