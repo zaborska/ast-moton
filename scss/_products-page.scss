@@ -1,0 +1,45 @@
+main.products-page {
+  background-color: $main-bg;
+  padding: 100px 0;
+
+  h2 {
+    margin: 0;
+  }
+
+  .products {
+    background-color: white;
+    padding: 40px;
+    box-shadow: $box-el-shadow;
+
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 171px;
+      grid-gap: 100px;
+
+      margin: 60px 0 100px;
+
+      img {
+        max-width: 100%;
+      }
+    }
+
+    .description {
+      margin-bottom: 50px;
+
+      img {
+        max-width: 50%;
+
+        &.right-img {
+          float: right;
+          margin-left: 25px;
+        }
+
+        &.left-img {
+          float: left;
+          margin-right: 25px;
+        }
+      }
+    }
+  }
+}

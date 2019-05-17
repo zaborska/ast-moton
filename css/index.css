@@ -181,14 +181,14 @@ section.slider .slider-text .header {
   margin: 25px 0 40px 0;
 }
 
-main {
+main.home-main {
   background-color: #f9f9f9;
   padding: 30px 0;
 }
-main .categories {
+main.home-main .categories {
   width: 236px;
 }
-main .popular-recent {
+main.home-main .popular-recent {
   width: 305px;
 }
 
@@ -356,6 +356,43 @@ footer .footer-navs nav.policies li a:hover {
   background-color: #f15c2a;
   color: white;
   border-color: #f15c2a;
+}
+
+main.products-page {
+  background-color: #f9f9f9;
+  padding: 100px 0;
+}
+main.products-page h2 {
+  margin: 0;
+}
+main.products-page .products {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.11);
+}
+main.products-page .products .products-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 171px;
+  grid-gap: 100px;
+  margin: 60px 0 100px;
+}
+main.products-page .products .products-grid img {
+  max-width: 100%;
+}
+main.products-page .products .description {
+  margin-bottom: 50px;
+}
+main.products-page .products .description img {
+  max-width: 50%;
+}
+main.products-page .products .description img.right-img {
+  float: right;
+  margin-left: 25px;
+}
+main.products-page .products .description img.left-img {
+  float: left;
+  margin-right: 25px;
 }
 
 /*# sourceMappingURL=index.css.map */
