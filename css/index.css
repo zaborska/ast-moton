@@ -135,6 +135,8 @@ header.page-header .header-logo {
       margin: 0 16px; }
 
 @media (max-width: 1200px) {
+  header.page-header nav.header-logo img {
+    max-width: 150px; }
   header.page-header nav.header-logo ul.navbar-nav {
     font-size: 16px; }
     header.page-header nav.header-logo ul.navbar-nav li {
@@ -186,10 +188,6 @@ section.slider {
 main.home-main {
   background-color: #f9f9f9;
   padding: 30px 0; }
-  main.home-main .categories {
-    width: 236px; }
-  main.home-main .popular-recent {
-    width: 305px; }
 
 footer {
   padding: 50px;
@@ -232,48 +230,60 @@ footer {
       footer .footer-navs nav.policies li a:hover {
         color: #06090b; }
 
-.posts {
-  flex: 1; }
-  .posts .post {
-    margin: 0 20px 20px;
-    padding: 14px; }
-    .posts .post .post-label {
-      background-color: #f15c2a;
-      padding: 8px 15px;
-      color: #fff;
-      font-size: 10px;
-      font-weight: 700;
-      position: absolute; }
-      .posts .post .post-label.black {
-        background-color: black; }
-    .posts .post .post-img-wrapper {
-      box-shadow: 0 0 2px rgba(125, 145, 148, 0.48);
-      padding: 2px; }
-      .posts .post .post-img-wrapper img {
-        max-width: 100%; }
-    .posts .post .date-info {
-      margin-bottom: 22px; }
-    .posts .post p {
-      margin-bottom: 25px; }
-    .posts .post .post-menu {
-      color: #c3ccd3; }
-    .posts .post .users {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      margin-left: 6px; }
-      .posts .post .users li:nth-child(n + 2) {
-        margin-left: -15px; }
-    .posts .post .post-social a {
-      color: inherit;
-      margin-left: 10px; }
-      .posts .post .post-social a i {
-        margin-right: 8px;
-        font-size: 18px; }
-      .posts .post .post-social a.like-btn:hover i {
-        color: #f25b84; }
-      .posts .post .post-social a.comment-btn:hover i {
-        color: #3546a5; }
+@media (max-width: 992px) {
+  footer .footer-navs nav.website-menu li {
+    margin: 0 5px;
+    font-size: 16px; }
+  footer .footer-navs nav.policies li {
+    margin: 0 5px; } }
+
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column; } }
+
+.categories {
+  margin-bottom: 20px; }
+
+.posts .post {
+  margin-bottom: 20px;
+  padding: 14px; }
+  .posts .post .post-label {
+    background-color: #f15c2a;
+    padding: 8px 15px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    position: absolute; }
+    .posts .post .post-label.black {
+      background-color: black; }
+  .posts .post .post-img-wrapper {
+    box-shadow: 0 0 2px rgba(125, 145, 148, 0.48);
+    padding: 2px; }
+    .posts .post .post-img-wrapper img {
+      max-width: 100%; }
+  .posts .post .date-info {
+    margin-bottom: 22px; }
+  .posts .post p {
+    margin-bottom: 25px; }
+  .posts .post .post-menu {
+    color: #c3ccd3; }
+  .posts .post .users {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 6px; }
+    .posts .post .users li:nth-child(n + 2) {
+      margin-left: -15px; }
+  .posts .post .post-social a {
+    color: inherit;
+    margin-left: 10px; }
+    .posts .post .post-social a i {
+      margin-right: 8px;
+      font-size: 18px; }
+    .posts .post .post-social a.like-btn:hover i {
+      color: #f25b84; }
+    .posts .post .post-social a.comment-btn:hover i {
+      color: #3546a5; }
 
 .post-small {
   display: flex;
@@ -287,8 +297,20 @@ footer {
   .post-small:hover p {
     text-decoration: underline; }
 
+@media (max-width: 992px) {
+  .post-small {
+    flex-direction: column; }
+    .post-small > img {
+      margin: auto; } }
+
+@media (max-width: 768px) {
+  .post-small {
+    flex-direction: row; }
+    .post-small > img {
+      margin-right: 14px; } }
+
 .pagination-wrapper {
-  margin: 0 20px 20px;
+  margin: 20px 0;
   position: relative; }
   .pagination-wrapper .next {
     position: absolute;

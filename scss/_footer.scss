@@ -64,3 +64,30 @@ footer {
     }
   }
 }
+
+// small desktop
+@media (max-width: $lg) {
+  footer {
+    .footer-navs {
+      nav.website-menu {
+        li {
+          margin: 0 5px;
+          font-size: 16px;
+        }
+      }
+
+      nav.policies {
+        li {
+          margin: 0 5px;
+        }
+      }
+    }
+  }
+}
+
+// tablet
+@media (max-width: $md) {
+  footer {
+    flex-direction: column;
+  }
+}

@@ -1,8 +1,12 @@
+.categories {
+  margin-bottom: 20px;
+}
+
 .posts {
-  flex: 1;
+  // flex: 1;
 
   .post {
-    margin: 0 20px 20px;
+    margin-bottom: 20px;
     padding: 14px;
 
     .post-label {
@@ -89,6 +93,26 @@
   &:hover {
     p {
       text-decoration: underline;
+    }
+  }
+}
+
+// small desktop
+@media (max-width: $lg) {
+  .post-small {
+    flex-direction: column;
+    & > img {
+      margin: auto;
+    }
+  }
+}
+
+// tablet
+@media (max-width: $md) {
+  .post-small {
+    flex-direction: row;
+    & > img {
+      margin-right: 14px;
     }
   }
 }

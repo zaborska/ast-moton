@@ -63,10 +63,15 @@ header.page-header {
 // small desktop
 @media (max-width: $xl) {
   header.page-header {
-    nav.header-logo ul.navbar-nav {
-      font-size: 16px;
-      li {
-        margin: 0 5px;
+    nav.header-logo {
+      img {
+        max-width: 150px;
+      }
+      ul.navbar-nav {
+        font-size: 16px;
+        li {
+          margin: 0 5px;
+        }
       }
     }
   }
