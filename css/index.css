@@ -150,6 +150,20 @@ header.page-header .header-logo {
   header.page-header nav.header-logo .navbar-collapse {
     order: 4; } }
 
+@media (max-width: 576px) {
+  header.page-header nav.header-logo button.navbar-toggler {
+    order: 2;
+    margin-top: 20px; }
+  header.page-header nav.header-logo .img-logo {
+    flex-basis: 100%;
+    order: 1;
+    text-align: center; }
+  header.page-header nav.header-logo .search-wrapper {
+    order: 3;
+    margin-top: 20px; }
+  header.page-header nav.header-logo .navbar-collapse {
+    order: 4; } }
+
 section.slider {
   position: relative;
   color: #29424e; }

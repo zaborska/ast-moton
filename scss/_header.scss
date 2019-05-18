@@ -91,3 +91,27 @@ header.page-header {
     }
   }
 }
+
+// mobile
+@media (max-width: $sm) {
+  header.page-header {
+    nav.header-logo {
+      button.navbar-toggler {
+        order: 2;
+        margin-top: 20px;
+      }
+      .img-logo {
+        flex-basis: 100%;
+        order: 1;
+        text-align: center;
+      }
+      .search-wrapper {
+        order: 3;
+        margin-top: 20px;
+      }
+      .navbar-collapse {
+        order: 4;
+      }
+    }
+  }
+}
