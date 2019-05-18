@@ -176,7 +176,8 @@ section.slider {
   section.slider .slider-text {
     position: absolute;
     top: 50%;
-    max-width: 50%; }
+    max-width: 50%;
+    transform: translate(0, -50%); }
     section.slider .slider-text .sub-header {
       font-weight: 600;
       font-size: 19px; }

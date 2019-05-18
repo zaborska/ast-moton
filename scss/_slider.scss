@@ -12,6 +12,7 @@ section.slider {
     position: absolute;
     top: 50%;
     max-width: 50%;
+    transform: translate(0, -50%);
 
     .sub-header {
       font-weight: $semi-bold;
