@@ -1,4 +1,8 @@
-.container-fluid {
+header.page-header {
+  .navbar-toggler {
+    border-color: $border-color;
+  }
+
   .name-block {
     font-size: 20px;
     padding: 10px 20px;
@@ -10,32 +14,29 @@
     padding: 25px 20px;
 
     img {
-      width: 225px;
+      max-width: 225px;
     }
 
-    nav {
+    ul.navbar-nav {
       font-size: 22px;
+      margin: 0 auto;
+      li {
+        margin: 0 25px;
+        a {
+          color: $secondary-font-color;
+        }
 
-      ul {
-        margin: 0;
-        li {
-          margin: 0 25px;
+        &:hover,
+        &.active {
           a {
-            color: $secondary-font-color;
+            text-decoration: none;
+            color: $base-font-color;
           }
+        }
 
-          &:hover,
-          &.nav-active-item {
-            a {
-              text-decoration: none;
-              color: $base-font-color;
-            }
-          }
-
-          &.nav-active-item {
-            a {
-              font-weight: $bold;
-            }
+        &.active {
+          a {
+            font-weight: $bold;
           }
         }
       }
@@ -45,10 +46,47 @@
       color: $border-color;
       font-size: 20px;
 
+      .search {
+        color: $brand-primary;
+        cursor: pointer;
+      }
+
       .divider {
         border-right: 1px solid $border-color;
         width: 1px;
         margin: 0 16px;
+      }
+    }
+  }
+}
+
+// small desktop
+@media (max-width: $xl) {
+  header.page-header {
+    nav.header-logo ul.navbar-nav {
+      font-size: 16px;
+      li {
+        margin: 0 5px;
+      }
+    }
+  }
+}
+
+// tablet
+@media (max-width: $md) {
+  header.page-header {
+    nav.header-logo {
+      button.navbar-toggler {
+        order: 1;
+      }
+      .img-logo {
+        order: 2;
+      }
+      .search-wrapper {
+        order: 3;
+      }
+      .navbar-collapse {
+        order: 4;
       }
     }
   }
