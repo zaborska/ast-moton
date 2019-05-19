@@ -98,74 +98,6 @@ label.radio {
     color: #263843;
     font-weight: 700; }
 
-header.page-header .navbar-toggler {
-  border-color: #707070; }
-
-header.page-header .name-block {
-  font-size: 20px;
-  padding: 10px 20px;
-  border-bottom: 1px solid #707070;
-  font-weight: 600; }
-
-header.page-header .header-logo {
-  padding: 25px 20px; }
-  header.page-header .header-logo img {
-    max-width: 225px; }
-  header.page-header .header-logo ul.navbar-nav {
-    font-size: 22px;
-    margin: 0 auto; }
-    header.page-header .header-logo ul.navbar-nav li {
-      margin: 0 25px; }
-      header.page-header .header-logo ul.navbar-nav li a {
-        color: #768791; }
-      header.page-header .header-logo ul.navbar-nav li:hover a, header.page-header .header-logo ul.navbar-nav li.active a {
-        text-decoration: none;
-        color: #263843; }
-      header.page-header .header-logo ul.navbar-nav li.active a {
-        font-weight: 700; }
-  header.page-header .header-logo .search-wrapper {
-    color: #707070;
-    font-size: 20px; }
-    header.page-header .header-logo .search-wrapper .search {
-      color: #f15c2a;
-      cursor: pointer; }
-    header.page-header .header-logo .search-wrapper .divider {
-      border-right: 1px solid #707070;
-      width: 1px;
-      margin: 0 16px; }
-
-@media (max-width: 1200px) {
-  header.page-header nav.header-logo img {
-    max-width: 150px; }
-  header.page-header nav.header-logo ul.navbar-nav {
-    font-size: 16px; }
-    header.page-header nav.header-logo ul.navbar-nav li {
-      margin: 0 5px; } }
-
-@media (max-width: 768px) {
-  header.page-header nav.header-logo button.navbar-toggler {
-    order: 1; }
-  header.page-header nav.header-logo .img-logo {
-    order: 2; }
-  header.page-header nav.header-logo .search-wrapper {
-    order: 3; }
-  header.page-header nav.header-logo .navbar-collapse {
-    order: 4; } }
-
-@media (max-width: 576px) {
-  header.page-header nav.header-logo button.navbar-toggler {
-    order: 2;
-    margin-top: 20px; }
-  header.page-header nav.header-logo .img-logo {
-    flex-basis: 100%;
-    order: 1;
-    text-align: center; }
-  header.page-header nav.header-logo .search-wrapper {
-    order: 3;
-    margin-top: 20px; }
-  header.page-header nav.header-logo .navbar-collapse {
-    order: 4; } }
-
 #mobile {
   background: #f69372;
   position: relative;
@@ -213,14 +145,15 @@ header.page-header .header-logo {
   background: #eae8e5; }
 
 #burgerBtn {
-  border-top: 2px solid #f85051;
+  display: none;
+  border-top: 2px solid #f15c2a;
   height: 25px;
   width: 30px;
   box-sizing: border-box;
   position: absolute;
   z-index: 30;
   left: 20px;
-  top: 15px;
+  top: 65px;
   cursor: pointer;
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
@@ -234,7 +167,7 @@ header.page-header .header-logo {
     height: 2px;
     width: 30px;
     left: 0;
-    background: #f85051;
+    background: #f15c2a;
     top: 10px;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
@@ -248,7 +181,7 @@ header.page-header .header-logo {
     height: 2px;
     width: 30px;
     left: 0;
-    background: #f85051;
+    background: #f15c2a;
     bottom: 0;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
@@ -267,7 +200,8 @@ header.page-header .header-logo {
     height: 30px;
     width: 0;
     margin: 30px 0;
-    background: #eae8e5;
+    font-size: 24px;
+    color: #fff;
     -webkit-transition: all 0.6s ease-in;
     -moz-transition: all 0.6s ease-in;
     -khtml-transition: all 0.6s ease-in;
@@ -279,6 +213,10 @@ header.page-header .header-logo {
         margin-left: -80px; }
         #nav li + li + li + li {
           margin-left: -120px; }
+          #nav li + li + li + li + li {
+            margin-left: -160px; }
+            #nav li + li + li + li + li + li {
+              margin-left: -200px; }
 
 #demoSelector {
   position: absolute;
@@ -340,7 +278,8 @@ header.page-header .header-logo {
   margin-left: 0; }
 
 .navigation #burgerBtn {
-  border-color: transparent; }
+  border-color: transparent;
+  top: 20px; }
   .navigation #burgerBtn:before {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -397,6 +336,65 @@ header.page-header .header-logo {
   -o-transform: scale(0.85);
   transform: scale(0.85);
   visibility: hidden; }
+
+header.page-header .name-block {
+  font-size: 20px;
+  padding: 10px 20px;
+  border-bottom: 1px solid #707070;
+  font-weight: 600; }
+
+header.page-header .header-logo {
+  padding: 25px 20px; }
+  header.page-header .header-logo img {
+    max-width: 225px; }
+  header.page-header .header-logo ul.navbar-menu {
+    font-size: 22px;
+    display: flex;
+    margin: 0 auto;
+    list-style-type: none; }
+    header.page-header .header-logo ul.navbar-menu li {
+      margin: 0 25px; }
+      header.page-header .header-logo ul.navbar-menu li a {
+        color: #768791; }
+      header.page-header .header-logo ul.navbar-menu li:hover a, header.page-header .header-logo ul.navbar-menu li.active a {
+        text-decoration: none;
+        color: #263843; }
+      header.page-header .header-logo ul.navbar-menu li.active a {
+        font-weight: 700; }
+  header.page-header .header-logo .search-wrapper {
+    color: #707070;
+    font-size: 20px; }
+    header.page-header .header-logo .search-wrapper .search {
+      color: #f15c2a;
+      cursor: pointer; }
+    header.page-header .header-logo .search-wrapper .divider {
+      border-right: 1px solid #707070;
+      width: 1px;
+      margin: 0 16px; }
+
+@media (max-width: 1200px) {
+  header.page-header nav.header-logo img {
+    max-width: 150px; }
+  header.page-header nav.header-logo ul.navbar-menu {
+    font-size: 16px; }
+    header.page-header nav.header-logo ul.navbar-menu li {
+      margin: 0 5px; } }
+
+@media (max-width: 768px) {
+  header.page-header .name-block {
+    padding: 5px;
+    font-size: 14px; }
+  header.page-header nav.header-logo .img-logo {
+    flex: 1;
+    text-align: center; }
+    header.page-header nav.header-logo .img-logo img {
+      max-width: 130px; }
+  header.page-header nav.header-logo .search-wrapper {
+    font-size: 16px; }
+  header.page-header nav.header-logo ul.navbar-menu {
+    display: none; }
+  #burgerBtn {
+    display: block; } }
 
 section.slider {
   position: relative;

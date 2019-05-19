@@ -56,14 +56,15 @@
 }
 
 #burgerBtn {
-  border-top: 2px solid #f85051;
+  display: none; // hidden by default
+  border-top: 2px solid $brand-primary;
   height: 25px;
   width: 30px;
   box-sizing: border-box;
   position: absolute;
   z-index: 30;
   left: 20px;
-  top: 15px;
+  top: 65px;
   cursor: pointer;
   @include transition(all 0.3s ease-in);
   &:before {
@@ -73,7 +74,7 @@
     height: 2px;
     width: 30px;
     left: 0;
-    background: #f85051;
+    background: $brand-primary;
     top: 10px;
     @include transition(all 0.3s ease-in);
   }
@@ -84,7 +85,7 @@
     height: 2px;
     width: 30px;
     left: 0;
-    background: #f85051;
+    background: $brand-primary;
     bottom: 0;
     @include transition(all 0.3s ease-in);
   }
@@ -101,7 +102,11 @@
     height: 30px;
     width: 0;
     margin: 30px 0;
-    background: #eae8e5;
+    // background: #eae8e5;
+
+    font-size: 24px;
+    color: #fff;
+
     @include transition(all 0.6s ease-in);
     & + li {
       margin-left: -40px;
@@ -109,6 +114,12 @@
         margin-left: -80px;
         & + li {
           margin-left: -120px;
+          & + li {
+            margin-left: -160px;
+            & + li {
+              margin-left: -200px;
+            }
+          }
         }
       }
     }
@@ -162,6 +173,7 @@
   }
   #burgerBtn {
     border-color: transparent;
+    top: 20px;
     &:before {
       @include rotate(45deg);
       width: 33px;
