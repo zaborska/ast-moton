@@ -94,9 +94,6 @@ header.page-header {
       .search-wrapper {
         font-size: 16px;
       }
-      .navbar-collapse {
-        // order: 4;
-      }
       // hide desktop menu
       ul.navbar-menu {
         display: none;
@@ -108,17 +105,3 @@ header.page-header {
     display: block;
   }
 }
-
-// mobile
-// @media (max-width: $sm) {
-//   header.page-header {
-//     nav.header-logo {
-//       .img-logo {
-//         // flex-basis: 100%;
-//         // order: 1;
-//         text-align: center;
-//         flex: 1;
-//       }
-//     }
-//   }
-// }
