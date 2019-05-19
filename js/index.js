@@ -1,13 +1,6 @@
-var burgerBtn = document.getElementById("burgerBtn");
-var mobile = document.getElementById("mobile");
-var demo1 = document.getElementById("demo1");
-var demo2 = document.getElementById("demo2");
-var demo3 = document.getElementById("demo3");
+const burgerBtn = document.getElementById("burgerBtn");
+const mobile = document.getElementById("mobile");
 
-burgerBtn.addEventListener(
-  "click",
-  function() {
-    mobile.classList.toggle("navigation");
-  },
-  false
-);
+burgerBtn.addEventListener("click", () => {
+  mobile.classList.toggle("navigation");
+});
