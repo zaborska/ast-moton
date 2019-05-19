@@ -2957,6 +2957,54 @@ header.page-header .header-logo {
       border-right: 1px solid #707070;
       width: 1px;
       margin: 0 16px; }
+    header.page-header .header-logo .search-wrapper form {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition: all 1s;
+      width: 50px;
+      height: 50px;
+      background: #eee;
+      box-sizing: border-box;
+      border-radius: 25px;
+      border: 4px solid #eee;
+      padding: 5px; }
+    header.page-header .header-logo .search-wrapper input {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 42.5px;
+      line-height: 30px;
+      outline: 0;
+      border: 0;
+      display: none;
+      font-size: 1em;
+      border-radius: 20px;
+      padding: 0 20px;
+      background: #eee; }
+    header.page-header .header-logo .search-wrapper .fas {
+      box-sizing: border-box;
+      padding: 10px;
+      width: 42.5px;
+      height: 42.5px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-radius: 50%;
+      color: #f15c2a;
+      text-align: center;
+      font-size: 1.2em;
+      transition: all 1s; }
+    header.page-header .header-logo .search-wrapper form:hover {
+      width: 200px;
+      cursor: pointer; }
+    header.page-header .header-logo .search-wrapper form:hover input {
+      display: block; }
+    header.page-header .header-logo .search-wrapper form:hover .fas {
+      background: #f15c2a;
+      color: white; }
 
 @media (max-width: 1200px) {
   header.page-header nav.header-logo img {

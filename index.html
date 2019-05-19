@@ -57,7 +57,10 @@
 
             <div class="search-wrapper d-flex">
               <div class="search">
-                <i class="fas fa-search"></i>
+                <form action="">
+                  <input type="search" placeholder="Search text..." />
+                  <i class="fas fa-search"></i>
+                </form>
               </div>
               <div class="divider"></div>
               <div class="city-selection"><strong>NL</strong>(HQ)</div>
@@ -530,10 +533,5 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/index.js"></script>
-    <script>
-      $(".carousel").carousel({
-        interval: 20000
-      });
-    </script>
   </body>
 </html>
