@@ -26,492 +26,500 @@
   </head>
 
   <body>
-    <!-- HEADER -->
-    <header class="container-fluid page-header">
-      <div class="name-block">
-        AST | MOTON
-      </div>
-
-      <nav class="navbar navbar-expand-md header-logo">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <i class="fas fa-bars"></i>
-        </button>
-
-        <div class="img-logo">
-          <img src="./img/AST_LOGOblack.svg" alt="ast-logo" />
-        </div>
-
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">
-                Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Products</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">News</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Support
-              </a>
-              <div
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="search-wrapper d-flex">
-          <div class="search">
-            <i class="fas fa-search"></i>
-          </div>
-          <div class="divider"></div>
-          <div class="city-selection"><strong>NL</strong>(HQ)</div>
-        </div>
-      </nav>
-    </header>
-
-    <!-- SLIDER -->
-    <section class="slider">
-      <img src="./img/slider/porsche-normal.jpg" alt="porsche" />
-
-      <div class="container">
-        <div class="slider-text">
-          <div class="sub-header">Latest Post</div>
-          <div class="header">"Free tickets to rollercoaster in the USA"</div>
-          <button class="btn btn-primary">KEEP READING</button>
-        </div>
-      </div>
-    </section>
-
-    <!-- MAIN CONTENT -->
-    <main class="home-main">
-      <div class="container ">
-        <div class="row">
-          <!-- LEFT: FILTERS -->
-          <div class="col-md-3">
-            <div class="box categories">
-              <div class="box-header">Categories</div>
-              <div class="form-group">
-                <label class="radio">
-                  <input type="radio" checked="checked" name="radio" />
-                  <span class="checkmark"></span>
-                  <span class="txt">Events</span>
-                </label>
-              </div>
-
-              <div class="form-group">
-                <label class="radio">
-                  <input type="radio" name="radio" />
-                  <span class="checkmark"></span>
-                  <span class="txt">AST</span>
-                </label>
-              </div>
-
-              <div class="form-group">
-                <label class="radio">
-                  <input type="radio" name="radio" />
-                  <span class="checkmark"></span>
-                  <span class="txt">MOTON</span>
-                </label>
-              </div>
-
-              <div class="form-group">
-                <label class="radio">
-                  <input type="radio" name="radio" />
-                  <span class="checkmark"></span>
-                  <span class="txt">International</span>
-                </label>
-              </div>
-
-              <div class="form-group">
-                <label class="radio">
-                  <input type="radio" name="radio" />
-                  <span class="checkmark"></span>
-                  <span class="txt">Industrial</span>
-                </label>
-              </div>
-            </div>
+    <div id="mobile" class="shift-right-effect">
+      <div id="burgerBtn"></div>
+      <ul id="nav">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <div id="mobileBodyContent">
+        <!-- HEADER -->
+        <header class="container-fluid page-header">
+          <div class="name-block">
+            AST | MOTON
           </div>
 
-          <!-- CENTER: POSTS -->
-          <div class="posts col-md-6">
-            <!-- POST 1 -->
-            <div class="box post">
-              <div class="post-img-wrapper">
-                <div class="post-label">Events</div>
-                <img
-                  src="./img/posts/roller-coaster-suspension.jpg"
-                  alt="roller-coaster-suspension"
-                />
-              </div>
-              <div class="text-center">
-                <h2>Free tickets to rollercoasters in the USA</h2>
-                <div class="date-info secondary-text">
-                  2 days ago / Coen / 3 min read
-                </div>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to
-                </p>
-              </div>
-              <div class="d-flex justify-content-between">
-                <div class="d-flex align-items-center">
-                  <a href="#"><i class="fas fa-ellipsis-v post-menu"></i></a>
-                  <ul class="users d-flex">
-                    <li>
-                      <a href="#">
-                        <img src="./img/posts/users/1.png" alt="user" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <img src="./img/posts/users/4.png" alt="user" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <img src="./img/posts/users/3.png" alt="user" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <img src="./img/posts/users/2.png" alt="user" />
-                      </a>
-                    </li>
-                  </ul>
-                  <div class="secondary-text ml-1">+20 more</div>
-                </div>
-                <div
-                  class="post-social d-flex align-items-center secondary-text"
-                >
-                  <a href="#" class="like-btn d-flex">
-                    <i class="fas fa-heart"></i>
-                    <span>10</span>
-                  </a>
-                  <a href="#" class="comment-btn d-flex">
-                    <i class="far fa-comments"></i>
-                    <span>10</span>
-                  </a>
-                </div>
-              </div>
+          <nav class="navbar navbar-expand-md header-logo">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="img-logo">
+              <img src="./img/AST_LOGOblack.svg" alt="ast-logo" />
             </div>
 
-            <!-- POST 2  -->
-            <div class="box post">
-              <div class="post-img-wrapper">
-                <div class="post-label">Events</div>
-                <img
-                  src="./img/posts/Spreader-suspension.jpg"
-                  alt="roller-coaster-suspension"
-                />
-              </div>
-              <div class="text-center">
-                <h2>Industrial products</h2>
-                <div class="date-info secondary-text">
-                  5 days ago / by Coen / 3 min read
-                </div>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to
-                </p>
-              </div>
-              <div class="d-flex justify-content-between">
-                <div class="d-flex align-items-center">
-                  <a href="#"><i class="fas fa-ellipsis-v post-menu"></i></a>
-                  <ul class="users d-flex">
-                    <li>
-                      <a href="#">
-                        <img src="./img/posts/users/1.png" alt="user" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <img src="./img/posts/users/4.png" alt="user" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <img src="./img/posts/users/3.png" alt="user" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <img src="./img/posts/users/2.png" alt="user" />
-                      </a>
-                    </li>
-                  </ul>
-                  <div class="secondary-text ml-1">+20 more</div>
-                </div>
-                <div
-                  class="post-social d-flex align-items-center secondary-text"
-                >
-                  <a href="#" class="like-btn d-flex">
-                    <i class="fas fa-heart"></i>
-                    <span>9</span>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">
+                    Home
+                    <span class="sr-only">(current)</span>
                   </a>
-                  <a href="#" class="comment-btn d-flex">
-                    <i class="far fa-comments"></i>
-                    <span>10</span>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Support
                   </a>
-                </div>
-              </div>
-            </div>
-
-            <!-- POST 3 -->
-            <div class="box post">
-              <div class="post-img-wrapper">
-                <div class="post-label black">MOTON</div>
-                <img src="./img/posts/porsche-model.jpg" alt="porsche-model" />
-              </div>
-              <div class="text-center">
-                <h2>Suspension for your Porsche</h2>
-                <div class="date-info secondary-text">
-                  1 month ago / by Coen / 3 min read
-                </div>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to
-                </p>
-              </div>
-              <div class="d-flex justify-content-between">
-                <div class="d-flex align-items-center">
-                  <a href="#"><i class="fas fa-ellipsis-v post-menu"></i></a>
-                  <ul class="users d-flex">
-                    <li>
-                      <a href="#">
-                        <img src="./img/posts/users/1.png" alt="user" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <img src="./img/posts/users/4.png" alt="user" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <img src="./img/posts/users/3.png" alt="user" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <img src="./img/posts/users/2.png" alt="user" />
-                      </a>
-                    </li>
-                  </ul>
-                  <div class="secondary-text ml-1">+20 more</div>
-                </div>
-                <div
-                  class="post-social d-flex align-items-center secondary-text"
-                >
-                  <a href="#" class="like-btn d-flex">
-                    <i class="fas fa-heart"></i>
-                    <span>11</span>
-                  </a>
-                  <a href="#" class="comment-btn d-flex">
-                    <i class="far fa-comments"></i>
-                    <span>0</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="pagination-wrapper">
-              <ul class="pagination">
-                <li class="active"><a href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">...</a></li>
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
               </ul>
-              <a href="#" class="next">Next >></a>
+            </div>
+
+            <div class="search-wrapper d-flex">
+              <div class="search">
+                <i class="fas fa-search"></i>
+              </div>
+              <div class="divider"></div>
+              <div class="city-selection"><strong>NL</strong>(HQ)</div>
+            </div>
+          </nav>
+        </header>
+
+        <!-- SLIDER -->
+        <section class="slider">
+          <img src="./img/slider/porsche-normal.jpg" alt="porsche" />
+
+          <div class="container">
+            <div class="slider-text">
+              <div class="sub-header">Latest Post</div>
+              <div class="header">
+                "Free tickets to rollercoaster in the USA"
+              </div>
+              <button class="btn btn-primary">KEEP READING</button>
             </div>
           </div>
+        </section>
 
-          <!-- RIGHT: RECENT ITEMS -->
-          <div class="col-md-3">
-            <div class="box popular-recent">
-              <div class="box-header">Popular Posts</div>
+        <!-- MAIN CONTENT -->
+        <main class="home-main">
+          <div class="container ">
+            <div class="row">
+              <!-- LEFT: FILTERS -->
+              <div class="col-md-3">
+                <div class="box categories">
+                  <div class="box-header">Categories</div>
+                  <div class="form-group">
+                    <label class="radio">
+                      <input type="radio" checked="checked" name="radio" />
+                      <span class="checkmark"></span>
+                      <span class="txt">Events</span>
+                    </label>
+                  </div>
 
-              <a href="#" class="post-small">
-                <img src="./img/popular-post/popular-1.png" alt="post" />
-                <div>
-                  <p>Lorem Ipsum is simply dummy text of the.</p>
-                  <div class="secondary-text">2 days ago</div>
+                  <div class="form-group">
+                    <label class="radio">
+                      <input type="radio" name="radio" />
+                      <span class="checkmark"></span>
+                      <span class="txt">AST</span>
+                    </label>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="radio">
+                      <input type="radio" name="radio" />
+                      <span class="checkmark"></span>
+                      <span class="txt">MOTON</span>
+                    </label>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="radio">
+                      <input type="radio" name="radio" />
+                      <span class="checkmark"></span>
+                      <span class="txt">International</span>
+                    </label>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="radio">
+                      <input type="radio" name="radio" />
+                      <span class="checkmark"></span>
+                      <span class="txt">Industrial</span>
+                    </label>
+                  </div>
                 </div>
-              </a>
+              </div>
 
-              <a href="#" class="post-small">
-                <img src="./img/popular-post/popular-2.png" alt="post" />
-                <div>
-                  <p>Lorem Ipsum is simply dummy text of the.</p>
-                  <div class="secondary-text">3 days ago</div>
+              <!-- CENTER: POSTS -->
+              <div class="posts col-md-6">
+                <!-- POST 1 -->
+                <div class="box post">
+                  <div class="post-img-wrapper">
+                    <div class="post-label">Events</div>
+                    <img
+                      src="./img/posts/roller-coaster-suspension.jpg"
+                      alt="roller-coaster-suspension"
+                    />
+                  </div>
+                  <div class="text-center">
+                    <h2>Free tickets to rollercoasters in the USA</h2>
+                    <div class="date-info secondary-text">
+                      2 days ago / Coen / 3 min read
+                    </div>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley of type and scrambled it to
+                    </p>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <i class="fas fa-ellipsis-v post-menu"></i>
+                      </a>
+                      <ul class="users d-flex">
+                        <li>
+                          <a href="#">
+                            <img src="./img/posts/users/1.png" alt="user" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <img src="./img/posts/users/4.png" alt="user" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <img src="./img/posts/users/3.png" alt="user" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <img src="./img/posts/users/2.png" alt="user" />
+                          </a>
+                        </li>
+                      </ul>
+                      <div class="secondary-text ml-1">+20 more</div>
+                    </div>
+                    <div
+                      class="post-social d-flex align-items-center secondary-text"
+                    >
+                      <a href="#" class="like-btn d-flex">
+                        <i class="fas fa-heart"></i>
+                        <span>10</span>
+                      </a>
+                      <a href="#" class="comment-btn d-flex">
+                        <i class="far fa-comments"></i>
+                        <span>10</span>
+                      </a>
+                    </div>
+                  </div>
                 </div>
-              </a>
 
-              <a href="#" class="post-small">
-                <img src="./img/popular-post/popular-3.png" alt="post" />
-                <div>
-                  <p>Lorem Ipsum is simply dummy text of the.</p>
-                  <div class="secondary-text">4 days ago</div>
+                <!-- POST 2  -->
+                <div class="box post">
+                  <div class="post-img-wrapper">
+                    <div class="post-label">Events</div>
+                    <img
+                      src="./img/posts/Spreader-suspension.jpg"
+                      alt="roller-coaster-suspension"
+                    />
+                  </div>
+                  <div class="text-center">
+                    <h2>Industrial products</h2>
+                    <div class="date-info secondary-text">
+                      5 days ago / by Coen / 3 min read
+                    </div>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley of type and scrambled it to
+                    </p>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <i class="fas fa-ellipsis-v post-menu"></i>
+                      </a>
+                      <ul class="users d-flex">
+                        <li>
+                          <a href="#">
+                            <img src="./img/posts/users/1.png" alt="user" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <img src="./img/posts/users/4.png" alt="user" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <img src="./img/posts/users/3.png" alt="user" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <img src="./img/posts/users/2.png" alt="user" />
+                          </a>
+                        </li>
+                      </ul>
+                      <div class="secondary-text ml-1">+20 more</div>
+                    </div>
+                    <div
+                      class="post-social d-flex align-items-center secondary-text"
+                    >
+                      <a href="#" class="like-btn d-flex">
+                        <i class="fas fa-heart"></i>
+                        <span>9</span>
+                      </a>
+                      <a href="#" class="comment-btn d-flex">
+                        <i class="far fa-comments"></i>
+                        <span>10</span>
+                      </a>
+                    </div>
+                  </div>
                 </div>
-              </a>
 
-              <a href="#" class="post-small">
-                <img src="./img/popular-post/popular-4.png" alt="post" />
-                <div>
-                  <p>Lorem Ipsum is simply dummy text of the.</p>
-                  <div class="secondary-text">5 days ago</div>
+                <!-- POST 3 -->
+                <div class="box post">
+                  <div class="post-img-wrapper">
+                    <div class="post-label black">MOTON</div>
+                    <img
+                      src="./img/posts/porsche-model.jpg"
+                      alt="porsche-model"
+                    />
+                  </div>
+                  <div class="text-center">
+                    <h2>Suspension for your Porsche</h2>
+                    <div class="date-info secondary-text">
+                      1 month ago / by Coen / 3 min read
+                    </div>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley of type and scrambled it to
+                    </p>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex align-items-center">
+                      <a href="#">
+                        <i class="fas fa-ellipsis-v post-menu"></i>
+                      </a>
+                      <ul class="users d-flex">
+                        <li>
+                          <a href="#">
+                            <img src="./img/posts/users/1.png" alt="user" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <img src="./img/posts/users/4.png" alt="user" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <img src="./img/posts/users/3.png" alt="user" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <img src="./img/posts/users/2.png" alt="user" />
+                          </a>
+                        </li>
+                      </ul>
+                      <div class="secondary-text ml-1">+20 more</div>
+                    </div>
+                    <div
+                      class="post-social d-flex align-items-center secondary-text"
+                    >
+                      <a href="#" class="like-btn d-flex">
+                        <i class="fas fa-heart"></i>
+                        <span>11</span>
+                      </a>
+                      <a href="#" class="comment-btn d-flex">
+                        <i class="far fa-comments"></i>
+                        <span>0</span>
+                      </a>
+                    </div>
+                  </div>
                 </div>
-              </a>
 
-              <a href="#" class="post-small">
-                <img src="./img/popular-post/popular-5.png" alt="post" />
-                <div>
-                  <p>Lorem Ipsum is simply dummy text of the.</p>
-                  <div class="secondary-text">10 days ago</div>
+                <div class="pagination-wrapper">
+                  <ul class="pagination">
+                    <li class="active"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">...</a></li>
+                  </ul>
+                  <a href="#" class="next">Next >></a>
                 </div>
-              </a>
+              </div>
 
-              <div class="box-header mt-5">Recent Posts</div>
+              <!-- RIGHT: RECENT ITEMS -->
+              <div class="col-md-3">
+                <div class="box popular-recent">
+                  <div class="box-header">Popular Posts</div>
 
-              <a href="#" class="post-small">
-                <img src="./img/popular-post/recent-1.jpg" alt="post" />
-                <div>
-                  <p>Lorem Ipsum is simply dummy text of the.</p>
-                  <div class="secondary-text">2 days ago</div>
+                  <a href="#" class="post-small">
+                    <img src="./img/popular-post/popular-1.png" alt="post" />
+                    <div>
+                      <p>Lorem Ipsum is simply dummy text of the.</p>
+                      <div class="secondary-text">2 days ago</div>
+                    </div>
+                  </a>
+
+                  <a href="#" class="post-small">
+                    <img src="./img/popular-post/popular-2.png" alt="post" />
+                    <div>
+                      <p>Lorem Ipsum is simply dummy text of the.</p>
+                      <div class="secondary-text">3 days ago</div>
+                    </div>
+                  </a>
+
+                  <a href="#" class="post-small">
+                    <img src="./img/popular-post/popular-3.png" alt="post" />
+                    <div>
+                      <p>Lorem Ipsum is simply dummy text of the.</p>
+                      <div class="secondary-text">4 days ago</div>
+                    </div>
+                  </a>
+
+                  <a href="#" class="post-small">
+                    <img src="./img/popular-post/popular-4.png" alt="post" />
+                    <div>
+                      <p>Lorem Ipsum is simply dummy text of the.</p>
+                      <div class="secondary-text">5 days ago</div>
+                    </div>
+                  </a>
+
+                  <a href="#" class="post-small">
+                    <img src="./img/popular-post/popular-5.png" alt="post" />
+                    <div>
+                      <p>Lorem Ipsum is simply dummy text of the.</p>
+                      <div class="secondary-text">10 days ago</div>
+                    </div>
+                  </a>
+
+                  <div class="box-header mt-5">Recent Posts</div>
+
+                  <a href="#" class="post-small">
+                    <img src="./img/popular-post/recent-1.jpg" alt="post" />
+                    <div>
+                      <p>Lorem Ipsum is simply dummy text of the.</p>
+                      <div class="secondary-text">2 days ago</div>
+                    </div>
+                  </a>
+
+                  <a href="#" class="post-small">
+                    <img src="./img/popular-post/recent-2.jpg" alt="post" />
+                    <div>
+                      <p>Lorem Ipsum is simply dummy text of the.</p>
+                      <div class="secondary-text">5 days ago</div>
+                    </div>
+                  </a>
+
+                  <a href="#" class="post-small">
+                    <img src="./img/popular-post/recent-3.jpg" alt="post" />
+                    <div>
+                      <p>Lorem Ipsum is simply dummy text of the.</p>
+                      <div class="secondary-text">6 days ago</div>
+                    </div>
+                  </a>
                 </div>
-              </a>
-
-              <a href="#" class="post-small">
-                <img src="./img/popular-post/recent-2.jpg" alt="post" />
-                <div>
-                  <p>Lorem Ipsum is simply dummy text of the.</p>
-                  <div class="secondary-text">5 days ago</div>
-                </div>
-              </a>
-
-              <a href="#" class="post-small">
-                <img src="./img/popular-post/recent-3.jpg" alt="post" />
-                <div>
-                  <p>Lorem Ipsum is simply dummy text of the.</p>
-                  <div class="secondary-text">6 days ago</div>
-                </div>
-              </a>
+              </div>
             </div>
           </div>
-        </div>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="d-flex align-items-center justify-content-between">
+          <div class="img-logo">
+            <img src="./img/AST_LOGOblack.svg" alt="ast-logo" />
+          </div>
+
+          <div class="footer-navs">
+            <nav class="website-menu">
+              <ul class="nav-centered">
+                <li><a href="#">Products</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </nav>
+
+            <nav class="social">
+              <ul class="nav-centered">
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                </li>
+              </ul>
+            </nav>
+
+            <nav class="policies">
+              <ul class="nav-centered">
+                <li><a href="#">Terms of service</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Copyright & Trademark</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <div>
+            <p>De Vest 68</p>
+            <p>5555 XP Valkenswaard</p>
+            <p>The Netherlands</p>
+            <p>
+              <a href="tel:031 (0)40 2074620">
+                T: 031 (0)40 2074620
+              </a>
+            </p>
+            <p>
+              <a href="mailto:info@ast-suspension.com">
+                E: info@ast-suspension.com
+              </a>
+            </p>
+          </div>
+        </footer>
       </div>
-    </main>
+    </div>
 
-    <!-- FOOTER -->
-    <footer class="d-flex align-items-center justify-content-between">
-      <div class="img-logo">
-        <img src="./img/AST_LOGOblack.svg" alt="ast-logo" />
-      </div>
-
-      <div class="footer-navs">
-        <nav class="website-menu">
-          <ul class="nav-centered">
-            <li><a href="#">Products</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Support</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-
-        <nav class="social">
-          <ul class="nav-centered">
-            <li>
-              <a href="#"><i class="fab fa-facebook-f"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fab fa-youtube"></i></a>
-            </li>
-          </ul>
-        </nav>
-
-        <nav class="policies">
-          <ul class="nav-centered">
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Copyright & Trademark</a></li>
-          </ul>
-        </nav>
-      </div>
-
-      <div>
-        <p>De Vest 68</p>
-        <p>5555 XP Valkenswaard</p>
-        <p>The Netherlands</p>
-        <p>
-          <a href="tel:031 (0)40 2074620">
-            T: 031 (0)40 2074620
-          </a>
-        </p>
-        <p>
-          <a href="mailto:info@ast-suspension.com">
-            E: info@ast-suspension.com
-          </a>
-        </p>
-      </div>
-    </footer>
-
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
