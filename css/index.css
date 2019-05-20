@@ -3357,8 +3357,10 @@ main.products-page {
     padding: 15px; }
     main.products-page .products .products-grid {
       margin: 15px;
-      grid-template-columns: 1fr;
-      grid-gap: 40px; } }
+      display: flex;
+      flex-direction: column; }
+      main.products-page .products .products-grid > div {
+        margin-bottom: 15px; } }
 
 header.moton-header {
   background-color: #313131;
