@@ -1,13 +1,19 @@
-header.moton-blog-page {
+header.moton-header {
   background-color: $moton-brand-primary;
   padding: 25px;
-  padding-bottom: 0px;
-  .header-wrapper {
-    border-bottom: 1px solid $box-bg;
-    padding-bottom: 25px;
-  }
+
   .name-block {
     margin-top: -10px;
+  }
+
+  nav {
+    border-top: 1px solid $box-bg;
+    margin-top: 25px;
+    margin-bottom: -20px;
+  }
+
+  .header-wrapper {
+    // padding-bottom: 25px;
   }
   div {
     color: $box-bg;
@@ -19,6 +25,7 @@ header.moton-blog-page {
     .search {
       color: $ast-brand-primary;
       cursor: pointer;
+      position: relative;
     }
 
     .divider {
@@ -28,10 +35,10 @@ header.moton-blog-page {
     }
 
     form {
-      position: relative;
+      position: absolute;
       top: 50%;
       left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translate(-100%, -50%);
       transition: all 1s;
       width: 50px;
       height: 50px;
@@ -74,7 +81,7 @@ header.moton-blog-page {
     }
 
     form:hover {
-      width: 200px;
+      width: 300px;
       cursor: pointer;
     }
 
@@ -111,6 +118,30 @@ header.moton-blog-page {
         a {
           font-weight: $bold;
         }
+      }
+    }
+  }
+}
+
+// tablet
+@media (max-width: $md) {
+  header.moton-header {
+    padding: 15px;
+    padding-left: 70px;
+
+    .img-logo img {
+      max-width: 140px;
+    }
+    nav {
+      display: none !important; // overwrite Bootstrap class
+    }
+    .name-block {
+      display: none;
+    }
+    .search-wrapper {
+      font-size: 16px;
+      form:hover {
+        width: calc(100vw - 158px);
       }
     }
   }

@@ -2739,6 +2739,12 @@ label.radio {
   margin: 20px auto;
   background: #eae8e5; }
 
+.ast-style #burgerBtn {
+  top: 65px; }
+
+.moton-style #burgerBtn {
+  top: 25px; }
+
 #burgerBtn {
   display: none;
   border-top: 2px solid #f15c2a;
@@ -2748,7 +2754,6 @@ label.radio {
   position: absolute;
   z-index: 30;
   left: 20px;
-  top: 65px;
   cursor: pointer;
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
@@ -3337,32 +3342,33 @@ main.products-page {
         padding-left: 70px;
         padding-right: 70px; }
 
-header.moton-blog-page {
+header.moton-header {
   background-color: #313131;
-  padding: 25px;
-  padding-bottom: 0px; }
-  header.moton-blog-page .header-wrapper {
-    border-bottom: 1px solid #ffffff;
-    padding-bottom: 25px; }
-  header.moton-blog-page .name-block {
+  padding: 25px; }
+  header.moton-header .name-block {
     margin-top: -10px; }
-  header.moton-blog-page div {
+  header.moton-header nav {
+    border-top: 1px solid #ffffff;
+    margin-top: 25px;
+    margin-bottom: -20px; }
+  header.moton-header div {
     color: #ffffff; }
-  header.moton-blog-page .search-wrapper {
+  header.moton-header .search-wrapper {
     color: #707070;
     font-size: 20px; }
-    header.moton-blog-page .search-wrapper .search {
+    header.moton-header .search-wrapper .search {
       color: #f15c2a;
-      cursor: pointer; }
-    header.moton-blog-page .search-wrapper .divider {
+      cursor: pointer;
+      position: relative; }
+    header.moton-header .search-wrapper .divider {
       border-right: 1px solid #707070;
       width: 1px;
       margin: 0 16px; }
-    header.moton-blog-page .search-wrapper form {
-      position: relative;
+    header.moton-header .search-wrapper form {
+      position: absolute;
       top: 50%;
       left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translate(-100%, -50%);
       transition: all 1s;
       width: 50px;
       height: 50px;
@@ -3371,7 +3377,7 @@ header.moton-blog-page {
       border-radius: 25px;
       border: 4px solid #eee;
       padding: 5px; }
-    header.moton-blog-page .search-wrapper input {
+    header.moton-header .search-wrapper input {
       position: absolute;
       top: 0;
       left: 0;
@@ -3385,7 +3391,7 @@ header.moton-blog-page {
       border-radius: 20px;
       padding: 0 20px;
       background: #eee; }
-    header.moton-blog-page .search-wrapper .fas {
+    header.moton-header .search-wrapper .fas {
       box-sizing: border-box;
       padding: 10px;
       width: 42.5px;
@@ -3398,28 +3404,43 @@ header.moton-blog-page {
       text-align: center;
       font-size: 1.2em;
       transition: all 1s; }
-    header.moton-blog-page .search-wrapper form:hover {
-      width: 200px;
+    header.moton-header .search-wrapper form:hover {
+      width: 300px;
       cursor: pointer; }
-    header.moton-blog-page .search-wrapper form:hover input {
+    header.moton-header .search-wrapper form:hover input {
       display: block; }
-    header.moton-blog-page .search-wrapper form:hover .fas {
+    header.moton-header .search-wrapper form:hover .fas {
       background: #f15c2a;
       color: white; }
-  header.moton-blog-page ul.navbar-menu {
+  header.moton-header ul.navbar-menu {
     font-size: 22px;
     display: flex;
     margin: 0 auto;
     list-style-type: none;
     margin-top: 15px; }
-    header.moton-blog-page ul.navbar-menu li {
+    header.moton-header ul.navbar-menu li {
       margin: 0 25px; }
-      header.moton-blog-page ul.navbar-menu li a {
+      header.moton-header ul.navbar-menu li a {
         color: #ffffff; }
-      header.moton-blog-page ul.navbar-menu li:hover a, header.moton-blog-page ul.navbar-menu li.active a {
+      header.moton-header ul.navbar-menu li:hover a, header.moton-header ul.navbar-menu li.active a {
         text-decoration: none;
         color: #f15c2a; }
-      header.moton-blog-page ul.navbar-menu li.active a {
+      header.moton-header ul.navbar-menu li.active a {
         font-weight: 700; }
+
+@media (max-width: 768px) {
+  header.moton-header {
+    padding: 15px;
+    padding-left: 70px; }
+    header.moton-header .img-logo img {
+      max-width: 140px; }
+    header.moton-header nav {
+      display: none !important; }
+    header.moton-header .name-block {
+      display: none; }
+    header.moton-header .search-wrapper {
+      font-size: 16px; }
+      header.moton-header .search-wrapper form:hover {
+        width: calc(100vw - 158px); } }
 
 /*# sourceMappingURL=index.css.map */
