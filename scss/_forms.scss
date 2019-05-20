@@ -35,8 +35,15 @@ label.radio {
 
   /* When the radio button is checked, add a blue background */
   input:checked ~ .checkmark {
-    background-color: $brand-primary;
-    border-color: $brand-primary;
+    .ast-style & {
+      background-color: $ast-brand-primary;
+      border-color: $ast-brand-primary;
+    }
+
+    .moton-style & {
+      background-color: $moton-brand-primary;
+      border-color: $moton-brand-primary;
+    }
   }
 
   input:checked ~ .txt {

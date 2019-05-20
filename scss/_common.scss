@@ -39,7 +39,6 @@ p {
 
 // Buttons
 .btn.btn-primary {
-  background-color: $brand-primary;
   text-transform: uppercase;
   font-weight: $semi-bold;
   letter-spacing: 2px;
@@ -50,7 +49,15 @@ p {
   &:hover,
   &:active,
   &:not(:disabled):not(.disabled):active {
-    background-color: darken($brand-primary, 10%);
+    background-color: darken($ast-brand-primary, 10%);
+  }
+
+  .ast-style & {
+    background-color: $ast-brand-primary;
+  }
+
+  .moton-style & {
+    background-color: $moton-brand-primary;
   }
 }
 

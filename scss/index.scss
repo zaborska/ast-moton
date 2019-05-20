@@ -3,46 +3,19 @@
 @import "variables";
 @import "mixins";
 
-.ast-style {
-  // REWRITE COLOR BASED ON PARENT CLASS
-  $brand-primary: #f15c2a;
+// general
+@import "common";
+@import "forms";
 
-  // general
-  @import "common";
-  @import "forms";
+@import "burger-menu";
+@import "header";
+@import "slider";
+@import "main";
+@import "footer";
 
-  @import "burger-menu";
-  @import "header";
-  @import "slider";
-  @import "main";
-  @import "footer";
+// components
+@import "posts";
+@import "pagination";
+@import "products-page";
 
-  // components
-  @import "posts";
-  @import "pagination";
-  @import "products-page";
-
-  @import "moton-blog-page"; // todo
-}
-
-.moton-style {
-  // REWRITE COLOR BASED ON PARENT CLASS
-  $brand-primary: #313131;
-
-  // general
-  @import "common";
-  @import "forms";
-
-  @import "burger-menu";
-  @import "header";
-  @import "slider";
-  @import "main";
-  @import "footer";
-
-  // components
-  @import "posts";
-  @import "pagination";
-  @import "products-page";
-
-  @import "moton-blog-page"; // todo
-}
+@import "moton-blog-page"; // todo

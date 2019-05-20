@@ -1,13 +1,16 @@
 // HAMBURGER
 
 #mobile {
-  // height: 667px;
-  // width: 375px;
-  background: lighten($brand-primary, 15%);
   position: relative;
-  // margin: 30px auto;
-  // @include box-shadow(0px 0px 20px 0px rgba(0, 0, 0, 0.1));
   overflow: hidden;
+
+  .ast-style & {
+    background-color: lighten($ast-brand-primary, 15%);
+  }
+
+  .moton-style & {
+    background-color: lighten($moton-brand-primary, 15%);
+  }
 }
 
 #mobileBodyContent {
@@ -57,7 +60,7 @@
 
 #burgerBtn {
   display: none; // hidden by default
-  border-top: 2px solid $brand-primary;
+  border-top: 2px solid $ast-brand-primary;
   height: 25px;
   width: 30px;
   box-sizing: border-box;
@@ -74,7 +77,7 @@
     height: 2px;
     width: 30px;
     left: 0;
-    background: $brand-primary;
+    background: $ast-brand-primary;
     top: 10px;
     @include transition(all 0.3s ease-in);
   }
@@ -85,7 +88,7 @@
     height: 2px;
     width: 30px;
     left: 0;
-    background: $brand-primary;
+    background: $ast-brand-primary;
     bottom: 0;
     @include transition(all 0.3s ease-in);
   }

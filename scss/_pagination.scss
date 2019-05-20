@@ -10,7 +10,14 @@
     right: 0px;
     top: 0px;
     line-height: $line-height;
-    color: $brand-primary;
+
+    .ast-style & {
+      color: $ast-brand-primary;
+    }
+
+    .moton-style & {
+      color: $moton-brand-primary;
+    }
   }
 
   .pagination {
@@ -39,9 +46,17 @@
       }
 
       &.active {
-        background-color: $brand-primary;
         color: white;
-        border-color: $brand-primary;
+
+        .ast-style & {
+          background-color: $ast-brand-primary;
+          border-color: $ast-brand-primary;
+        }
+
+        .moton-style & {
+          background-color: $moton-brand-primary;
+          border-color: $moton-brand-primary;
+        }
       }
     }
   }

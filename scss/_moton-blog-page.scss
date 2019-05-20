@@ -1,5 +1,5 @@
 header.moton-blog-page {
-  background-color: $bg-moton-blog;
+  background-color: $moton-brand-primary;
   padding: 25px;
   padding-bottom: 0px;
   .header-wrapper {
@@ -17,7 +17,7 @@ header.moton-blog-page {
     font-size: 20px;
 
     .search {
-      color: $brand-primary;
+      color: $ast-brand-primary;
       cursor: pointer;
     }
 
@@ -83,7 +83,7 @@ header.moton-blog-page {
     }
 
     form:hover .fas {
-      background: $brand-primary;
+      background: $ast-brand-primary;
       color: white;
     }
   }
@@ -103,7 +103,7 @@ header.moton-blog-page {
       &.active {
         a {
           text-decoration: none;
-          color: $brand-primary;
+          color: $ast-brand-primary;
         }
       }
 

@@ -33,10 +33,17 @@
   .carousel-control-prev {
     height: 45px;
     width: 45px;
-    background: $brand-primary;
     border-radius: 50%;
     top: auto;
     bottom: 20px;
+
+    .ast-style & {
+      background-color: $ast-brand-primary;
+    }
+
+    .moton-style & {
+      background-color: $moton-brand-primary;
+    }
   }
   .carousel-control-next {
     right: 20px;
