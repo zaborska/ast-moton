@@ -3,19 +3,46 @@
 @import "variables";
 @import "mixins";
 
-// general
-@import "common";
-@import "forms";
+.ast-style {
+  // REWRITE COLOR BASED ON PARENT CLASS
+  $brand-primary: #f15c2a;
 
-@import "burger-menu";
-@import "header";
-@import "slider";
-@import "main";
-@import "footer";
+  // general
+  @import "common";
+  @import "forms";
 
-// components
-@import "posts";
-@import "pagination";
-@import "products-page";
+  @import "burger-menu";
+  @import "header";
+  @import "slider";
+  @import "main";
+  @import "footer";
 
-@import "moton-blog-page"; // todo
+  // components
+  @import "posts";
+  @import "pagination";
+  @import "products-page";
+
+  @import "moton-blog-page"; // todo
+}
+
+.moton-style {
+  // REWRITE COLOR BASED ON PARENT CLASS
+  $brand-primary: #313131;
+
+  // general
+  @import "common";
+  @import "forms";
+
+  @import "burger-menu";
+  @import "header";
+  @import "slider";
+  @import "main";
+  @import "footer";
+
+  // components
+  @import "posts";
+  @import "pagination";
+  @import "products-page";
+
+  @import "moton-blog-page"; // todo
+}
