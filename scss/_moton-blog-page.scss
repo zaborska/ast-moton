@@ -1,0 +1,228 @@
+header.moton-blog-page {
+  background-color: $bg-moton-blog;
+  padding: 25px;
+  padding-bottom: 0px;
+  .header-wrapper {
+    border-bottom: 1px solid $box-bg;
+    padding-bottom: 25px;
+  }
+  .name-block {
+    margin-top: -10px;
+  }
+  div {
+    color: $box-bg;
+  }
+  .search-wrapper {
+    color: $border-color;
+    font-size: 20px;
+
+    .search {
+      color: $brand-primary;
+      cursor: pointer;
+    }
+
+    .divider {
+      border-right: 1px solid $border-color;
+      width: 1px;
+      margin: 0 16px;
+    }
+
+    form {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition: all 1s;
+      width: 50px;
+      height: 50px;
+      background: #eee;
+      box-sizing: border-box;
+      border-radius: 25px;
+      border: 4px solid #eee;
+      padding: 5px;
+    }
+
+    input {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 42.5px;
+      line-height: 30px;
+      outline: 0;
+      border: 0;
+      display: none;
+      font-size: 1em;
+      border-radius: 20px;
+      padding: 0 20px;
+      background: #eee;
+    }
+
+    .fas {
+      box-sizing: border-box;
+      padding: 10px;
+      width: 42.5px;
+      height: 42.5px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-radius: 50%;
+      color: $search-moton-blog;
+      text-align: center;
+      font-size: 1.2em;
+      transition: all 1s;
+    }
+
+    form:hover {
+      width: 200px;
+      cursor: pointer;
+    }
+
+    form:hover input {
+      display: block;
+    }
+
+    form:hover .fas {
+      background: $brand-primary;
+      color: white;
+    }
+  }
+  ul.navbar-menu {
+    font-size: 22px;
+    display: flex;
+    margin: 0 auto;
+    list-style-type: none;
+    margin-top: 15px;
+    li {
+      margin: 0 25px;
+      a {
+        color: $box-bg;
+      }
+
+      &:hover,
+      &.active {
+        a {
+          text-decoration: none;
+          color: $brand-primary;
+        }
+      }
+
+      &.active {
+        a {
+          font-weight: $bold;
+        }
+      }
+    }
+  }
+}
+.carousel {
+  .carousel-control-prev.blog-carousel-control-prev,
+  .carousel-control-next.blog-carousel-control-prev {
+    background-color: $bg-moton-blog;
+  }
+}
+//  form
+
+label.radio-blog {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  /* Hide the browser's default radio button */
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    height: 12px;
+    width: 12px;
+    border: 2px solid $radio-border;
+    border-radius: 50%;
+  }
+
+  /* On mouse-over, add a grey background color */
+  &:hover input ~ .checkmark {
+    background-color: $radio-border;
+  }
+
+  /* When the radio button is checked, add a blue background */
+  input:checked ~ .checkmark {
+    background-color: $bg-moton-blog;
+    border-color: $bg-moton-blog;
+  }
+
+  input:checked ~ .txt {
+    color: $base-font-color;
+    font-weight: $bold;
+  }
+}
+//pagination
+
+.pagination-wrapper-blog {
+  $line-height: 27px;
+  margin: 20px 0;
+  position: relative;
+
+  .next-blog {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    line-height: $line-height;
+    color: $bg-moton-blog;
+  }
+
+  .pagination-blog {
+    justify-content: center;
+
+    li {
+      width: 30px;
+      height: 30px;
+      line-height: $line-height;
+      border: 1px solid $radio-border;
+      border-radius: 50%;
+      text-align: center;
+      margin: 0 5px;
+      color: $secondary-font-color;
+
+      &:hover {
+        background-color: $secondary-font-color;
+        color: white;
+      }
+
+      a {
+        color: inherit;
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+
+      &.active-page {
+        background-color: $bg-moton-blog;
+        color: white;
+        border-color: $bg-moton-blog;
+      }
+    }
+  }
+}
+
+footer.blog {
+  background-color: $bg-moton-blog;
+  .footer-navs-blog-page {
+    .website-menu {
+      li {
+      }
+    }
+  }
+}
