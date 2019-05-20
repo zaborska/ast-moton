@@ -117,6 +117,23 @@ footer {
 // tablet
 @media (max-width: $md) {
   footer {
+    padding: 15px;
     flex-direction: column;
+
+    .footer-navs {
+      .website-menu,
+      nav.social,
+      .policies {
+        margin: 15px;
+      }
+    }
+
+    address {
+      text-align: center;
+      p {
+        display: inline-block;
+        margin: 5px;
+      }
+    }
   }
 }

@@ -3168,7 +3168,17 @@ footer {
 
 @media (max-width: 768px) {
   footer {
-    flex-direction: column; } }
+    padding: 15px;
+    flex-direction: column; }
+    footer .footer-navs .website-menu,
+    footer .footer-navs nav.social,
+    footer .footer-navs .policies {
+      margin: 15px; }
+    footer address {
+      text-align: center; }
+      footer address p {
+        display: inline-block;
+        margin: 5px; } }
 
 .categories {
   margin-bottom: 20px; }
