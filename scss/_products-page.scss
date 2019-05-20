@@ -88,3 +88,18 @@ main.products-page {
     }
   }
 }
+
+// tablet
+@media (max-width: $md) {
+  main.products-page {
+    padding: 15px;
+
+    .products {
+      .products-grid {
+        margin: 15px;
+        grid-template-columns: 1fr;
+        grid-gap: 40px;
+      }
+    }
+  }
+}

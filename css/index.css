@@ -3352,6 +3352,14 @@ main.products-page {
         padding-left: 70px;
         padding-right: 70px; }
 
+@media (max-width: 768px) {
+  main.products-page {
+    padding: 15px; }
+    main.products-page .products .products-grid {
+      margin: 15px;
+      grid-template-columns: 1fr;
+      grid-gap: 40px; } }
+
 header.moton-header {
   background-color: #313131;
   padding: 25px; }
