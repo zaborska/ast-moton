@@ -1,6 +1,13 @@
 footer {
   padding: 50px;
-  background-color: $footer-bg;
+
+  .ast-style & {
+    background-color: $footer-bg;
+  }
+
+  .moton-style & {
+    background-color: $moton-brand-primary;
+  }
 
   .img-logo img {
     max-width: 200px;
@@ -9,7 +16,12 @@ footer {
   .footer-navs {
     nav.website-menu {
       li {
-        color: $slider-text-color;
+        .ast-style & {
+          color: $slider-text-color;
+        }
+        .moton-style & {
+          color: #fff;
+        }
         margin: 0 25px;
         font-size: 20px;
 
@@ -51,7 +63,12 @@ footer {
       li {
         margin: 0 20px;
         font-size: 12px;
-        color: $slider-text-color;
+        .ast-style & {
+          color: $slider-text-color;
+        }
+        .moton-style & {
+          color: #fff;
+        }
 
         a {
           color: inherit;
@@ -61,6 +78,18 @@ footer {
           }
         }
       }
+    }
+  }
+
+  address {
+    .ast-style & {
+      color: $slider-text-color;
+    }
+    .moton-style & {
+      color: #fff;
+    }
+    p {
+      color: inherit;
     }
   }
 }
