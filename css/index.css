@@ -2658,9 +2658,6 @@ label.radio {
   padding-left: 25px;
   margin-bottom: 12px;
   cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
   /* Hide the browser's default radio button */
   /* Create a custom radio button */
@@ -2689,6 +2686,56 @@ label.radio {
   label.radio input:checked ~ .txt {
     color: #263843;
     font-weight: 700; }
+
+.btn.btn-primary.btn-hover {
+  transform: perspective(1px) translateZ(0);
+  position: relative;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition: 0.3 all;
+  overflow: hidden;
+  border: 2px solid; }
+  .btn.btn-primary.btn-hover:hover {
+    background: #eee;
+    border: 2px solid; }
+  .btn.btn-primary.btn-hover:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #eee;
+    transform: scaleY(0);
+    transform-origin: 50% 0;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out; }
+  .btn.btn-primary.btn-hover:hover:before, .btn.btn-primary.btn-hover:focus:before, .btn.btn-primary.btn-hover:active:before {
+    transform: scaleY(1); }
+
+.ast-style .btn.btn-primary.btn-hover {
+  border-color: #f15c2a; }
+  .ast-style .btn.btn-primary.btn-hover:hover {
+    border-color: #f15c2a;
+    color: #f15c2a; }
+
+.ast-style .btn-hover:hover,
+.ast-style .btn-hover:focus,
+.ast-style .btn-hover:active {
+  color: #f15c2a; }
+
+.moton-style .btn.btn-primary.btn-hover {
+  border-color: #313131; }
+  .moton-style .btn.btn-primary.btn-hover:hover {
+    border-color: #313131;
+    color: #313131; }
+
+.moton-style .btn-hover:hover,
+.moton-style .btn-hover:focus,
+.moton-style .btn-hover:active {
+  color: #313131; }
 
 #mobile {
   position: relative;
