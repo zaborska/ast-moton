@@ -3000,7 +3000,7 @@ header.page-header .header-logo {
     margin: 0 auto;
     list-style-type: none; }
     header.page-header .header-logo ul.navbar-menu li {
-      margin: 0 25px; }
+      margin: 1px 25px; }
       header.page-header .header-logo ul.navbar-menu li a {
         color: #768791; }
       header.page-header .header-logo ul.navbar-menu li:hover a, header.page-header .header-logo ul.navbar-menu li.active a {
@@ -3073,7 +3073,7 @@ header.page-header .header-logo {
   header.page-header nav.header-logo ul.navbar-menu {
     font-size: 16px; }
     header.page-header nav.header-logo ul.navbar-menu li {
-      margin: 0 5px; } }
+      margin: 1px 5px; } }
 
 @media (max-width: 768px) {
   header.page-header .name-block {
@@ -3090,6 +3090,81 @@ header.page-header .header-logo {
     display: none; }
   #burgerBtn {
     display: block; } }
+
+.menu ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0; }
+
+.menu > ul > .menu-item {
+  flex: 1; }
+  .menu > ul > .menu-item:after {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    bottom: 5px;
+    left: calc(50% - 2px);
+    background: #feceab;
+    will-change: transform;
+    transform: scale(0);
+    transition: transform 0.2s ease; }
+  .menu > ul > .menu-item:hover:after {
+    transform: scale(1); }
+
+.menu-item {
+  position: relative;
+  line-height: 2.5rem;
+  text-align: center; }
+  .menu-item a {
+    overflow: hidden;
+    display: block;
+    color: white; }
+  .sub-menu .menu-item {
+    padding: 0.75rem 0;
+    background: #f4815a;
+    opacity: 0;
+    transform-origin: bottom;
+    animation: enter 0.2s ease forwards; }
+    .sub-menu .menu-item:nth-child(1) {
+      animation-duration: 0.2s;
+      animation-delay: 0s; }
+    .sub-menu .menu-item:nth-child(2) {
+      animation-duration: 0.3s;
+      animation-delay: 0.1s; }
+    .sub-menu .menu-item:nth-child(3) {
+      animation-duration: 0.4s;
+      animation-delay: 0.2s; }
+    .sub-menu .menu-item:hover {
+      background: #f8b195; }
+    .sub-menu .menu-item a {
+      padding: 0 0.75rem; }
+
+.sub-menu {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  width: 250px;
+  top: 100%;
+  display: none;
+  z-index: 1; }
+  .menu-item:hover > .sub-menu {
+    display: block; }
+
+@keyframes enter {
+  from {
+    opacity: 0;
+    transform: scaleY(0.98) translateY(10px); }
+  to {
+    opacity: 1;
+    transform: none; } }
+
+@keyframes fade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
 
 .carousel {
   position: relative;

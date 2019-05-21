@@ -19,7 +19,7 @@ header.page-header {
       margin: 0 auto;
       list-style-type: none;
       li {
-        margin: 0 25px;
+        margin: 1px 25px;
         a {
           color: $secondary-font-color;
         }
@@ -128,7 +128,7 @@ header.page-header {
       ul.navbar-menu {
         font-size: 16px;
         li {
-          margin: 0 5px;
+          margin: 1px 5px;
         }
       }
     }
@@ -163,5 +163,104 @@ header.page-header {
   // show burger button
   #burgerBtn {
     display: block;
+  }
+}
+
+// DROPDOWN MENU STYLES
+// todo move vars out
+$red: lighten($ast-brand-primary, 10%);
+$orange: #f8b195;
+$yellow: #feceab;
+$white: white;
+
+.menu {
+  ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+  > ul {
+    > .menu-item {
+      flex: 1;
+
+      &:after {
+        content: "";
+        position: absolute;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        bottom: 5px;
+        left: calc(50% - 2px);
+        background: $yellow;
+        will-change: transform;
+        transform: scale(0);
+        transition: transform 0.2s ease;
+      }
+      &:hover:after {
+        transform: scale(1);
+      }
+    }
+  }
+  &-item {
+    position: relative;
+    line-height: 2.5rem;
+    text-align: center;
+    a {
+      overflow: hidden;
+      display: block;
+      color: $white;
+    }
+    @at-root .sub-menu & {
+      padding: 0.75rem 0;
+      background: $red;
+      opacity: 0;
+      transform-origin: bottom;
+      animation: enter 0.2s ease forwards;
+      @for $n from 1 through 3 {
+        &:nth-child(#{$n}) {
+          animation-duration: 0.2s + 0.1s * ($n - 1);
+          animation-delay: 0.1s * ($n - 1);
+        }
+      }
+      &:hover {
+        background: $orange;
+      }
+      a {
+        padding: 0 0.75rem;
+      }
+    }
+  }
+}
+
+.sub-menu {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  width: 250px;
+  top: 100%;
+  display: none;
+  z-index: 1;
+  @at-root .menu-item:hover > & {
+    display: block;
+  }
+}
+
+@keyframes enter {
+  from {
+    opacity: 0;
+    transform: scaleY(0.98) translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
