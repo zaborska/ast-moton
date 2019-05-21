@@ -243,6 +243,9 @@ $white: white;
   @at-root .menu-item:hover > & {
     display: block;
   }
+  .menu-item a {
+    color: #fff;
+  }
 }
 
 @keyframes enter {

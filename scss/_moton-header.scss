@@ -5,19 +5,10 @@ header.moton-header {
   .name-block {
     margin-top: -10px;
   }
-
-  nav {
-    border-top: 1px solid $box-bg;
-    margin-top: 25px;
-    margin-bottom: -20px;
-  }
-
-  .header-wrapper {
-    // padding-bottom: 25px;
-  }
   div {
     color: $box-bg;
   }
+
   .search-wrapper {
     color: $border-color;
     font-size: 20px;
@@ -94,21 +85,27 @@ header.moton-header {
       color: white;
     }
   }
+  nav {
+    border-top: 1px solid $box-bg;
+    margin-top: 25px;
+    margin-bottom: -20px;
+  }
   ul.navbar-menu {
     font-size: 22px;
     display: flex;
-    margin: 0 auto;
     list-style-type: none;
     margin-top: 15px;
-    li {
-      margin: 0 25px;
+    padding: 0;
+    margin: 0 auto;
+    & > li {
+      margin: 1px 25px;
       a {
         color: $box-bg;
       }
 
       &:hover,
       &.active {
-        a {
+        & > a {
           text-decoration: none;
           color: $ast-brand-primary;
         }

@@ -3151,6 +3151,8 @@ header.page-header .header-logo {
   z-index: 1; }
   .menu-item:hover > .sub-menu {
     display: block; }
+  .sub-menu .menu-item a {
+    color: #fff; }
 
 @keyframes enter {
   from {
@@ -3489,10 +3491,6 @@ header.moton-header {
   padding: 25px; }
   header.moton-header .name-block {
     margin-top: -10px; }
-  header.moton-header nav {
-    border-top: 1px solid #ffffff;
-    margin-top: 25px;
-    margin-bottom: -20px; }
   header.moton-header div {
     color: #ffffff; }
   header.moton-header .search-wrapper {
@@ -3554,20 +3552,25 @@ header.moton-header {
     header.moton-header .search-wrapper form:hover .fas {
       background: #f15c2a;
       color: white; }
+  header.moton-header nav {
+    border-top: 1px solid #ffffff;
+    margin-top: 25px;
+    margin-bottom: -20px; }
   header.moton-header ul.navbar-menu {
     font-size: 22px;
     display: flex;
-    margin: 0 auto;
     list-style-type: none;
-    margin-top: 15px; }
-    header.moton-header ul.navbar-menu li {
-      margin: 0 25px; }
-      header.moton-header ul.navbar-menu li a {
+    margin-top: 15px;
+    padding: 0;
+    margin: 0 auto; }
+    header.moton-header ul.navbar-menu > li {
+      margin: 1px 25px; }
+      header.moton-header ul.navbar-menu > li a {
         color: #ffffff; }
-      header.moton-header ul.navbar-menu li:hover a, header.moton-header ul.navbar-menu li.active a {
+      header.moton-header ul.navbar-menu > li:hover > a, header.moton-header ul.navbar-menu > li.active > a {
         text-decoration: none;
         color: #f15c2a; }
-      header.moton-header ul.navbar-menu li.active a {
+      header.moton-header ul.navbar-menu > li.active a {
         font-weight: 700; }
 
 @media (max-width: 768px) {
