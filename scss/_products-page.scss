@@ -45,7 +45,7 @@ main.products-page {
       margin-top: 92px;
       margin-bottom: 10px;
       div {
-        font-weight: $semi-bold;
+        font-weight: bold;
         font-size: 18px;
         margin-bottom: 14px;
       }
@@ -71,13 +71,13 @@ main.products-page {
       h2 {
         color: white;
         font-size: 40px;
-        font-weight: $semi-bold;
+        font-weight: bold;
         text-shadow: $txt-shadow;
       }
       div {
         color: $light-text;
         font-size: 18px;
-        font-weight: $semi-bold;
+        font-weight: bold;
         margin-bottom: 10px;
         text-shadow: $txt-shadow;
       }

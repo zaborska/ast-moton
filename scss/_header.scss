@@ -3,7 +3,7 @@ header.page-header {
     font-size: 20px;
     padding: 10px 20px;
     border-bottom: 1px solid $border-color;
-    font-weight: $semi-bold;
+    font-weight: bold;
   }
 
   .header-logo {
@@ -34,7 +34,7 @@ header.page-header {
 
         &.active {
           a {
-            font-weight: $bold;
+            font-weight: bold;
           }
         }
       }
