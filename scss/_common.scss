@@ -1,5 +1,5 @@
 body {
-  font-family: $font-raleway;
+  font-family: $font-karla;
   color: $base-font-color;
   font-size: 14px;
 }
@@ -11,11 +11,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $font-raleway;
+  font-family: $font-oswald;
+  font-weight: bold;
   color: $base-font-color;
 }
 h2 {
-  font-weight: $extra-bold;
   font-size: 27px;
   margin-top: 27px;
   margin-bottom: 15px;

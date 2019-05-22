@@ -5,7 +5,8 @@
  *
  * Copyright (c) 2018 Daniel Eden
  */
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Oswald:700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Karla:400,400i,700&display=swap");
 @-webkit-keyframes bounce {
   from,
   20%,
@@ -2586,7 +2587,7 @@
     transition: none !important; } }
 
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Karla", sans-serif;
   color: #263843;
   font-size: 14px; }
 
@@ -2596,11 +2597,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
   color: #263843; }
 
 h2 {
-  font-weight: 800;
   font-size: 27px;
   margin-top: 27px;
   margin-bottom: 15px; }
@@ -3182,7 +3183,8 @@ header.page-header .header-logo {
     max-width: 70%;
     transform: translate(0, -50%); }
     .carousel .slider-text .sub-header {
-      font-weight: 600;
+      font-weight: bold;
+      font-family: "Karla", sans-serif;
       font-size: 19px; }
     .carousel .slider-text .header {
       font-weight: 600;
@@ -3325,7 +3327,8 @@ footer {
     .posts .post .post-img-wrapper img {
       max-width: 100%; }
   .posts .post .date-info {
-    margin-bottom: 22px; }
+    margin-bottom: 22px;
+    font-style: italic; }
   .posts .post p {
     margin-bottom: 25px; }
   .posts .post .post-menu {
