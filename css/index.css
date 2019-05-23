@@ -3316,6 +3316,8 @@ main.home-main {
 
 footer {
   padding: 50px; }
+  footer a {
+    cursor: pointer; }
   .ast-style footer {
     background-color: #ffffff; }
   .moton-style footer {
@@ -3332,6 +3334,13 @@ footer {
     footer .footer-navs nav.website-menu li a:hover {
       color: inherit;
       text-decoration: underline; }
+  footer .footer-navs nav.website-menu .footer-menu a {
+    color: #263843;
+    line-height: 18px; }
+    .moton-style footer .footer-navs nav.website-menu .footer-menu a {
+      color: #fff; }
+  footer .footer-navs nav.website-menu .footer-menu .sub-menu {
+    width: 220px; }
   footer .footer-navs nav.social {
     margin: 40px 0; }
     footer .footer-navs nav.social li {

@@ -1,5 +1,8 @@
 footer {
   padding: 50px;
+  a {
+    cursor: pointer;
+  }
 
   .ast-style & {
     background-color: $footer-bg;
@@ -28,6 +31,18 @@ footer {
         a:hover {
           color: inherit;
           text-decoration: underline;
+        }
+      }
+      .footer-menu {
+        a {
+          color: $base-font-color;
+          line-height: 18px;
+          .moton-style & {
+            color: #fff;
+          }
+        }
+        .sub-menu {
+          width: 220px;
         }
       }
     }
