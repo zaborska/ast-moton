@@ -2924,9 +2924,8 @@ label.radio {
   padding: 0;
   overflow: hidden; }
   #nav li {
-    height: 30px;
     width: 0;
-    margin: 30px 0;
+    margin: 20px 0;
     font-size: 24px;
     color: #fff;
     -webkit-transition: all 0.6s ease-in;
@@ -2934,6 +2933,10 @@ label.radio {
     -khtml-transition: all 0.6s ease-in;
     -o-transition: all 0.6s ease-in;
     transition: all 0.6s ease-in; }
+    #nav li:hover {
+      color: #e3e3e3; }
+      #nav li:hover a {
+        color: inherit; }
     #nav li + li {
       margin-left: -40px; }
       #nav li + li + li {
@@ -2944,6 +2947,9 @@ label.radio {
             margin-left: -160px; }
             #nav li + li + li + li + li + li {
               margin-left: -200px; }
+  #nav .submenu {
+    overflow: hidden;
+    list-style-type: none; }
 
 #demoSelector {
   position: absolute;

@@ -111,13 +111,21 @@
   padding: 0;
   overflow: hidden;
   li {
-    height: 30px;
+    // height: 30px;
     width: 0;
-    margin: 30px 0;
+    margin: 20px 0;
     // background: #eae8e5;
 
     font-size: 24px;
     color: #fff;
+
+    &:hover {
+      color: $light-text;
+
+      a {
+        color: inherit;
+      }
+    }
 
     @include transition(all 0.6s ease-in);
     & + li {
@@ -135,6 +143,11 @@
         }
       }
     }
+  }
+
+  .submenu {
+    overflow: hidden;
+    list-style-type: none;
   }
 }
 
