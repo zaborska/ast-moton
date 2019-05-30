@@ -3402,6 +3402,42 @@ footer {
         display: inline-block;
         margin: 5px; } }
 
+.frow {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto; }
+  .frow .dark {
+    background-color: #ccc;
+    color: #fafafa; }
+  .frow .light {
+    background-color: #fafafa;
+    color: #ccc; }
+  .frow .left div {
+    max-width: 400px;
+    text-align: left;
+    margin-left: auto; }
+  .frow .right div {
+    max-width: 400px;
+    text-align: right; }
+  .frow .img-wrapper {
+    padding-bottom: 50px;
+    margin-top: -20px; }
+    .frow .img-wrapper .img {
+      transform: translateX(-50%);
+      background-color: #fafafa;
+      max-height: 500px;
+      max-width: 700px; }
+  .frow .year {
+    font-size: 121px;
+    line-height: 121px;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: -6px;
+    padding: 50px; }
+  .frow .description {
+    font-size: 16px;
+    padding: 50px; }
+
 .categories {
   margin-bottom: 20px; }
 
