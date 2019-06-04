@@ -3403,7 +3403,7 @@ footer {
         margin: 5px; } }
 
 .frow {
-  display: grid;
+  display: block;
   grid-template-columns: 50% 50%;
   grid-template-rows: auto auto; }
   .frow .dark {
@@ -3424,10 +3424,10 @@ footer {
     margin-top: -20px; }
     .frow .img-wrapper .img {
       transform: translateX(-50%);
-      background-color: #fafafa;
       max-height: 500px;
       max-width: 600px;
-      margin: 5px 0; }
+      margin: 5px 0;
+      background-color: transparent; }
   .frow .year {
     font-size: 121px;
     line-height: 121px;
@@ -3442,6 +3442,25 @@ footer {
   .frow .description {
     font-size: 16px;
     padding: 50px; }
+
+@media (min-width: 576px) {
+  .frow {
+    display: grid; } }
+
+@media (max-width: 576px) {
+  .frow {
+    display: flex;
+    flex-direction: column; }
+    .frow .year {
+      order: 1; }
+    .frow .description {
+      order: 2; }
+    .frow .img-wrapper {
+      order: 3;
+      text-align: center; }
+      .frow .img-wrapper .img {
+        transform: none;
+        max-width: 100%; } }
 
 .categories {
   margin-bottom: 20px; }
