@@ -76,6 +76,20 @@ $grid-light: #fafafa;
     display: flex;
     flex-direction: column;
 
+    &:nth-child(odd) {
+      & > div {
+        background-color: $grid-dark;
+        color: $grid-light;
+      }
+    }
+
+    &:nth-child(even) {
+      & > div {
+        background-color: $grid-light;
+        color: $grid-dark;
+      }
+    }
+
     .year {
       order: 1;
     }
@@ -88,7 +102,7 @@ $grid-light: #fafafa;
 
       .img {
         transform: none;
-        max-width: 100%;
+        max-width: 90%;
       }
     }
   }

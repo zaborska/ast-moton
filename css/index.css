@@ -3451,6 +3451,12 @@ footer {
   .frow {
     display: flex;
     flex-direction: column; }
+    .frow:nth-child(odd) > div {
+      background-color: #ccc;
+      color: #fafafa; }
+    .frow:nth-child(even) > div {
+      background-color: #fafafa;
+      color: #ccc; }
     .frow .year {
       order: 1; }
     .frow .description {
@@ -3460,7 +3466,7 @@ footer {
       text-align: center; }
       .frow .img-wrapper .img {
         transform: none;
-        max-width: 100%; } }
+        max-width: 90%; } }
 
 .categories {
   margin-bottom: 20px; }
