@@ -3265,10 +3265,20 @@ header.page-header .header-logo {
     object-fit: cover; }
   .carousel .slider-text {
     position: absolute;
-    bottom: 20%;
-    left: 10%;
     max-width: 70%;
     transform: translate(0, -50%); }
+    .carousel .slider-text.top-left {
+      top: 10%;
+      left: 10%; }
+    .carousel .slider-text.top-right {
+      top: 10%;
+      right: 10%; }
+    .carousel .slider-text.bottom-left {
+      bottom: 10%;
+      left: 10%; }
+    .carousel .slider-text.bottom-right {
+      bottom: 10%;
+      right: 10%; }
     .carousel .slider-text .sub-header {
       font-weight: bold;
       font-family: "Karla", sans-serif;
@@ -3276,7 +3286,12 @@ header.page-header .header-logo {
     .carousel .slider-text .header {
       font-weight: bold;
       font-size: 42px;
-      margin: 25px 0 40px 0; }
+      margin: 0 0 20px 0; }
+      .carousel .slider-text .header.black-header {
+        color: #29424e; }
+      .carousel .slider-text .header.white-header {
+        color: white;
+        text-shadow: 1px 1px 1px black; }
 
 .carousel .carousel-control-next,
 .carousel .carousel-control-prev {

@@ -8,12 +8,34 @@
     object-fit: cover;
   }
 
+  // .slider-text
+  // .top-right
+  //
+
   .slider-text {
     position: absolute;
-    bottom: 20%;
-    left: 10%;
+    // bottom: 10%;
+    // left: 10%;
     max-width: 70%;
     transform: translate(0, -50%);
+
+    &.top-left {
+      top: 10%;
+      left: 10%;
+    }
+
+    &.top-right {
+      top: 10%;
+      right: 10%;
+    }
+    &.bottom-left {
+      bottom: 10%;
+      left: 10%;
+    }
+    &.bottom-right {
+      bottom: 10%;
+      right: 10%;
+    }
 
     .sub-header {
       font-weight: bold;
@@ -24,7 +46,15 @@
     .header {
       font-weight: bold;
       font-size: 42px;
-      margin: 25px 0 40px 0;
+      margin: 0 0 20px 0;
+
+      &.black-header {
+        color: $slider-text-color;
+      }
+      &.white-header {
+        color: white;
+        text-shadow: 1px 1px 1px black;
+      }
     }
   }
 }
