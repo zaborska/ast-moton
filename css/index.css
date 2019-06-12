@@ -3286,7 +3286,8 @@ header.page-header .header-logo {
     .carousel .slider-text .header {
       font-weight: bold;
       font-size: 42px;
-      margin: 0 0 20px 0; }
+      margin: 0 0 20px 0;
+      text-transform: uppercase; }
       .carousel .slider-text .header.black-header {
         color: #29424e; }
       .carousel .slider-text .header.white-header {
