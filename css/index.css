@@ -3513,7 +3513,9 @@ footer {
       text-align: center; }
       .frow .img-wrapper .img {
         transform: none;
-        max-width: 90%; } }
+        max-width: 90%; }
+  .team .inform-co-workers {
+    grid-auto-rows: 400px; } }
 
 .categories {
   margin-bottom: 20px; }

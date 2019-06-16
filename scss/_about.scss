@@ -144,4 +144,9 @@ $grid-light: #fafafa;
       }
     }
   }
+  .team {
+    .inform-co-workers {
+      grid-auto-rows: 400px;
+    }
+  }
 }
