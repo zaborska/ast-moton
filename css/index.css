@@ -3482,6 +3482,7 @@ footer {
   .team .inform-co-workers {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: 350px;
     grid-gap: 30px; }
     .team .inform-co-workers img {
       max-width: 100%;
