@@ -3459,6 +3459,36 @@ footer {
     font-size: 16px;
     padding: 50px; }
 
+.history {
+  background: white; }
+  .history h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 55px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color: #ccc; }
+
+.team {
+  background: #ccc;
+  padding-bottom: 20px; }
+  .team h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 55px;
+    padding-top: 40px;
+    margin-bottom: 15px;
+    color: white; }
+  .team .inform-co-workers {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 30px; }
+    .team .inform-co-workers img {
+      max-width: 100%;
+      object-fit: cover;
+      width: 100%;
+      height: 100%; }
+
 @media (min-width: 576px) {
   .frow {
     display: grid; } }
