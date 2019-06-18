@@ -1,0 +1,17 @@
+.contact-page {
+  background: $main-bg;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  .contact-mobile {
+    color: $search-moton-blog;
+  }
+  .email {
+    color: $search-moton-blog;
+  }
+  .contact-img {
+    img {
+      max-width: 100%;
+    }
+  }
+}

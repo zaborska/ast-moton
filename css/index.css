@@ -3933,4 +3933,15 @@ header.moton-header {
   transition-delay: 0.5s;
   opacity: 1; }
 
+.contact-page {
+  background: #f9f9f9;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .contact-page .contact-mobile {
+    color: #f15d2c; }
+  .contact-page .email {
+    color: #f15d2c; }
+  .contact-page .contact-img img {
+    max-width: 100%; }
+
 /*# sourceMappingURL=index.css.map */
