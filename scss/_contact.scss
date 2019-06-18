@@ -3,19 +3,14 @@
   padding-top: 30px;
 }
 /* Form */
-#contact-us {
-  padding: 30px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
+
 .form-contact {
   background: $light-text;
   margin: auto;
   color: white;
   padding: 20px;
-  max-width: 600px;
   border: 1px solid #313131;
-  box-shadow: 0px 5px 4px 0.5px rgba(0, 5, 4, 0.5);
+
   .form-contact p {
     margin-top: 10px;
   }
@@ -45,6 +40,11 @@
     background: $search-moton-blog;
   }
 }
+.contact-img {
+  img {
+    max-width: 100%;
+  }
+}
 //adress
 
 .contact-page {
@@ -56,10 +56,5 @@
   }
   .email {
     color: $search-moton-blog;
-  }
-  .contact-img {
-    img {
-      max-width: 100%;
-    }
   }
 }

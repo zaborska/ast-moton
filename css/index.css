@@ -3938,19 +3938,12 @@ header.moton-header {
   padding-top: 30px; }
 
 /* Form */
-#contact-us {
-  padding: 30px;
-  padding-left: 15px;
-  padding-right: 15px; }
-
 .form-contact {
   background: #e3e3e3;
   margin: auto;
   color: white;
   padding: 20px;
-  max-width: 600px;
-  border: 1px solid #313131;
-  box-shadow: 0px 5px 4px 0.5px rgba(0, 5, 4, 0.5); }
+  border: 1px solid #313131; }
   .form-contact .form-contact p {
     margin-top: 10px; }
   .form-contact .form-group textarea {
@@ -3973,6 +3966,9 @@ header.moton-header {
   .form-contact .btn-send:hover {
     background: #f15d2c; }
 
+.contact-img img {
+  max-width: 100%; }
+
 .contact-page {
   padding-top: 30px;
   padding-bottom: 30px; }
@@ -3980,7 +3976,5 @@ header.moton-header {
     color: #f15d2c; }
   .contact-page .email {
     color: #f15d2c; }
-  .contact-page .contact-img img {
-    max-width: 100%; }
 
 /*# sourceMappingURL=index.css.map */
