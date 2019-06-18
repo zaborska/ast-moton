@@ -3933,8 +3933,47 @@ header.moton-header {
   transition-delay: 0.5s;
   opacity: 1; }
 
-.contact-page {
+.wrapper-contact-page {
   background: #f9f9f9;
+  padding-top: 30px; }
+
+/* Form */
+#contact-us {
+  padding: 30px;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.form-contact {
+  background: #e3e3e3;
+  margin: auto;
+  color: white;
+  padding: 20px;
+  max-width: 600px;
+  border: 1px solid #313131;
+  box-shadow: 0px 5px 4px 0.5px rgba(0, 5, 4, 0.5); }
+  .form-contact .form-contact p {
+    margin-top: 10px; }
+  .form-contact .form-group textarea {
+    margin-top: 10px; }
+  .form-contact .contact-control {
+    background-color: #a7a4a4;
+    border: none;
+    color: white;
+    border-radius: 0; }
+  .form-contact .contact-control::placeholder {
+    color: white; }
+  .form-contact .contact-control:focus {
+    background-color: white;
+    color: #313131; }
+  .form-contact .btn-send {
+    background-color: white;
+    color: #ffffff;
+    border-radius: 0;
+    border: none; }
+  .form-contact .btn-send:hover {
+    background: #f15d2c; }
+
+.contact-page {
   padding-top: 30px;
   padding-bottom: 30px; }
   .contact-page .contact-mobile {
