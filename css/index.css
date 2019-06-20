@@ -3986,4 +3986,23 @@ header.moton-header {
   max-width: 15px;
   margin-right: 5px; }
 
+main.wrapper-automotive {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  font-size: 12px; }
+  main.wrapper-automotive .container {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    main.wrapper-automotive .container h1 {
+      text-align: center;
+      margin-bottom: 60px; }
+    main.wrapper-automotive .container h5,
+    main.wrapper-automotive .container h4 {
+      color: #f15d2c; }
+    main.wrapper-automotive .container p {
+      color: #263843; }
+    main.wrapper-automotive .container .img-automotive img {
+      max-width: 100%; }
+
 /*# sourceMappingURL=index.css.map */
