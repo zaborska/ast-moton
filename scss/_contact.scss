@@ -1,11 +1,12 @@
 .wrapper-contact-page {
   background: $main-bg;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 /* Form */
 
 .form-contact {
-  background: $light-text;
+  background: #efefef;
   margin: auto;
   color: white;
   padding: 20px;
@@ -18,7 +19,7 @@
     margin-top: 10px;
   }
   .contact-control {
-    background-color: #a7a4a4;
+    background-color: #cfcece;
     border: none;
     color: white;
     border-radius: 0;
@@ -51,10 +52,19 @@
   padding-top: 30px;
   padding-bottom: 30px;
 
+  .ast-suspension-bv-inform {
+    margin-left: 23px;
+  }
+
   .contact-mobile {
     color: $search-moton-blog;
   }
   .email {
     color: $search-moton-blog;
   }
+}
+
+.img-icons {
+  max-width: 15px;
+  margin-right: 5px;
 }
