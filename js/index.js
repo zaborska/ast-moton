@@ -38,3 +38,10 @@ function includeHTML() {
   }
 }
 includeHTML();
+
+// tooltips
+// TEMP SOLUTION
+
+setTimeout(function() {
+  $('[data-toggle="tooltip"]').tooltip();
+}, 1000);

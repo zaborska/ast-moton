@@ -1,11 +1,15 @@
 main.wrapper-automotive {
   background-color: $main-bg;
   padding: 50px 0;
-  font-size: 12px;
+  font-size: 16px;
   .container {
     background-color: white;
     padding-top: 20px;
     padding-bottom: 20px;
+
+    i {
+      color: $search-moton-blog;
+    }
 
     h1 {
       text-align: center;
