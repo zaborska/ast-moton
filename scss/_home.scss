@@ -1,0 +1,52 @@
+.home-wrapper {
+  .product-choose {
+    padding: 20px 0;
+    background-color: lighten($ast-brand-primary, 10%);
+    h2 {
+      text-transform: uppercase;
+      margin: 0;
+    }
+    .btn {
+      background-color: $moton-brand-primary;
+    }
+  }
+
+  .product-nav-item {
+    position: relative;
+    height: 200px;
+
+    width: 300px;
+    overflow: hidden;
+
+    img {
+      max-height: 100%;
+    }
+
+    figcaption {
+      position: absolute;
+      bottom: 0;
+      font-size: 24px;
+      text-transform: uppercase;
+
+      left: 0;
+      right: 0;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.5);
+      font-weight: 900;
+      color: #fff;
+      padding: 20px;
+      transition: all 0.3s;
+      min-height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &:hover {
+      figcaption {
+        min-height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+      }
+    }
+  }
+}

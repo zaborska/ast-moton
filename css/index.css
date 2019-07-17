@@ -4007,4 +4007,41 @@ main.wrapper-automotive {
     main.wrapper-automotive .container .img-automotive img {
       max-width: 100%; }
 
+.home-wrapper .product-choose {
+  padding: 20px 0;
+  background-color: #ff8d66; }
+  .home-wrapper .product-choose h2 {
+    text-transform: uppercase;
+    margin: 0; }
+  .home-wrapper .product-choose .btn {
+    background-color: #313131; }
+
+.home-wrapper .product-nav-item {
+  position: relative;
+  height: 200px;
+  width: 300px;
+  overflow: hidden; }
+  .home-wrapper .product-nav-item img {
+    max-height: 100%; }
+  .home-wrapper .product-nav-item figcaption {
+    position: absolute;
+    bottom: 0;
+    font-size: 24px;
+    text-transform: uppercase;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    font-weight: 900;
+    color: #fff;
+    padding: 20px;
+    transition: all 0.3s;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .home-wrapper .product-nav-item:hover figcaption {
+    min-height: 100%;
+    background: rgba(0, 0, 0, 0.8); }
+
 /*# sourceMappingURL=index.css.map */
