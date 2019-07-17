@@ -4024,7 +4024,8 @@ main.wrapper-automotive {
   position: relative;
   height: 200px;
   flex: 1;
-  overflow: hidden; }
+  overflow: hidden;
+  margin: 0; }
   .home-wrapper .product-nav-item img {
     max-height: 100%; }
   .home-wrapper .product-nav-item figcaption {
@@ -4051,5 +4052,11 @@ main.wrapper-automotive {
 @media (max-width: 576px) {
   .home-wrapper .product-nav {
     flex-direction: column; } }
+
+.home-wrapper .stories {
+  background-color: #f9f9f9;
+  padding: 30px 0; }
+  .home-wrapper .stories h3 {
+    text-transform: uppercase; }
 
 /*# sourceMappingURL=index.css.map */
