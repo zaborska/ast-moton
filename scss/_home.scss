@@ -71,11 +71,26 @@
   }
 
   .stories {
-    background-color: $main-bg;
-    padding: 30px 0;
+    padding: 40px 0;
 
     h3 {
       text-transform: uppercase;
+    }
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .info-block {
+    padding: 60px 0;
+    background-color: $main-bg;
+    .info-icon {
+      border-right: 1px solid $img-wrapper-shadow;
+      border-left: 1px solid $img-wrapper-shadow;
+      text-align: center;
+      i {
+        font-size: 60px;
+      }
     }
   }
 }
