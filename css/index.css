@@ -4056,9 +4056,18 @@ main.wrapper-automotive {
 .home-wrapper .stories {
   padding: 40px 0; }
   .home-wrapper .stories h3 {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    padding-bottom: 5px; }
   .home-wrapper .stories img {
     max-width: 100%; }
+  .home-wrapper .stories .header-stories {
+    text-transform: uppercase;
+    font-size: 20px; }
+  .home-wrapper .stories .times {
+    color: #3546a5;
+    font-size: 16px;
+    padding-top: -5px;
+    padding-bottom: 5px; }
 
 .home-wrapper .info-block {
   padding: 60px 0;

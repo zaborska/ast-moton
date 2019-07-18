@@ -75,9 +75,21 @@
 
     h3 {
       text-transform: uppercase;
+      padding-bottom: 5px;
     }
     img {
       max-width: 100%;
+    }
+
+    .header-stories {
+      text-transform: uppercase;
+      font-size: 20px;
+    }
+    .times {
+      color: $comment-color;
+      font-size: 16px;
+      padding-top: -5px;
+      padding-bottom: 5px;
     }
   }
 
