@@ -4,7 +4,7 @@
   position: relative;
 }
 
-.card {
+.about-card {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -34,7 +34,7 @@
   }
 }
 
-.card:hover .card-image {
+.about-card:hover .card-image {
   transform: translateY(-120px);
   transition: all 0.9s;
 }
@@ -72,7 +72,7 @@
   }
 }
 
-.card:hover .social-icons li a {
+.about-card:hover .social-icons li a {
   transform: translateY(0px);
   opacity: 1;
 }
@@ -94,16 +94,16 @@
   }
 }
 
-.card:hover li:nth-child(1) a {
+.about-card:hover li:nth-child(1) a {
   transition-delay: 0.1s;
 }
-.card:hover li:nth-child(2) a {
+.about-card:hover li:nth-child(2) a {
   transition-delay: 0.2s;
 }
-.card:hover li:nth-child(3) a {
+.about-card:hover li:nth-child(3) a {
   transition-delay: 0.3s;
 }
-.card:hover li:nth-child(4) a {
+.about-card:hover li:nth-child(4) a {
   transition-delay: 0.4s;
 }
 
@@ -149,11 +149,11 @@
   border-radius: 50%;
 }
 
-.card:hover .profile-img--two {
+.about-card:hover .profile-img--two {
   transform: rotateY(180deg);
 }
 
-.card:hover .jane {
+.about-card:hover .jane {
   bottom: 0;
   left: 0;
   transition-delay: 0.5s;

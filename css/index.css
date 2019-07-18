@@ -3808,7 +3808,7 @@ header.moton-header {
 .card-wrapper {
   position: relative; }
 
-.card {
+.about-card {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -3820,7 +3820,7 @@ header.moton-header {
   box-shadow: 0 5px 18px rgba(0, 0, 0, 0.6);
   cursor: pointer;
   transition: 0.5s; }
-  .card .card-image {
+  .about-card .card-image {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -3829,11 +3829,11 @@ header.moton-header {
     z-index: 2;
     background-color: #000;
     transition: 0.5s; }
-  .card:hover img {
+  .about-card:hover img {
     opacity: 0.4;
     transition: 0.5s; }
 
-.card:hover .card-image {
+.about-card:hover .card-image {
   transform: translateY(-120px);
   transition: all 0.9s; }
 
@@ -3864,7 +3864,7 @@ header.moton-header {
       transform: translateY(200px);
       opacity: 0; }
 
-.card:hover .social-icons li a {
+.about-card:hover .social-icons li a {
   transform: translateY(0px);
   opacity: 1; }
 
@@ -3880,16 +3880,16 @@ header.moton-header {
     transform: rotateY(360deg);
     color: #fff; }
 
-.card:hover li:nth-child(1) a {
+.about-card:hover li:nth-child(1) a {
   transition-delay: 0.1s; }
 
-.card:hover li:nth-child(2) a {
+.about-card:hover li:nth-child(2) a {
   transition-delay: 0.2s; }
 
-.card:hover li:nth-child(3) a {
+.about-card:hover li:nth-child(3) a {
   transition-delay: 0.3s; }
 
-.card:hover li:nth-child(4) a {
+.about-card:hover li:nth-child(4) a {
   transition-delay: 0.4s; }
 
 /**** Personal Details ****/
@@ -3926,10 +3926,10 @@ header.moton-header {
 .profile-two .social-icons li a {
   border-radius: 50%; }
 
-.card:hover .profile-img--two {
+.about-card:hover .profile-img--two {
   transform: rotateY(180deg); }
 
-.card:hover .jane {
+.about-card:hover .jane {
   bottom: 0;
   left: 0;
   transition-delay: 0.5s;
@@ -4081,5 +4081,15 @@ main.wrapper-automotive {
 
 .product-wrapper .img-banner img {
   max-width: 100%; }
+
+.product-wrapper .product-information {
+  margin-top: 30px; }
+  .product-wrapper .product-information h3 {
+    font-size: 34px; }
+  .product-wrapper .product-information img {
+    max-width: 100%; }
+
+.product-wrapper .products-news i {
+  font-size: 70px; }
 
 /*# sourceMappingURL=index.css.map */

@@ -1,0 +1,24 @@
+.product-wrapper {
+  .img-banner {
+    img {
+      max-width: 100%;
+    }
+  }
+  .product-information {
+    margin-top: 30px;
+    h3 {
+      font-size: 34px;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .products-news {
+    // background-color:$main-bg;
+    i {
+      font-size: 70px;
+    }
+  }
+}
