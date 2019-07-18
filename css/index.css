@@ -4079,4 +4079,7 @@ main.wrapper-automotive {
     .home-wrapper .info-block .info-icon i {
       font-size: 60px; }
 
+.product-wrapper .img-banner img {
+  max-width: 100%; }
+
 /*# sourceMappingURL=index.css.map */

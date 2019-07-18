@@ -1,0 +1,1 @@
+{"version":3,"file":"new-products-page.css","sources":["new-products-page.scss"],"sourcesContent":[".product-wrapper {\n  .img-banner {\n    img {\n      max-width: 100%;\n    }\n  }\n}\n"],"names":[],"mappings":"AAAA,AAEI,gBAFY,CACd,WAAW,CACT,GAAG,CAAC;EACF,SAAS,EAAE,IAAI,GAChB"}
