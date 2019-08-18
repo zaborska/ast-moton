@@ -1,0 +1,64 @@
+.sticky-sidebar {
+  position: fixed;
+  right: 0px;
+  top: 50%;
+  z-index: 30;
+  transform: translateY(-50%);
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+
+    li {
+      width: 48px;
+      height: 48px;
+      // padding: 12px;
+      font-size: 20px;
+      margin-top: 1px;
+      text-align: center;
+
+      a {
+        display: block;
+        width: 48px;
+        height: 48px;
+        position: relative;
+
+        $titleWidth: 200px;
+
+        &:hover {
+          .title {
+            left: -($titleWidth);
+          }
+        }
+
+        .icon-block {
+          width: 48px;
+          height: 48px;
+          position: relative;
+          z-index: 100;
+          background-color: black;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          i {
+            color: white;
+          }
+        }
+
+        .title {
+          position: absolute;
+          top: 0;
+          left: 48px;
+          transition: all ease-in-out 0.3s;
+          width: $titleWidth;
+          background-color: rgba(0, 0, 0, 0.6);
+          padding: 12px 72px 12px 24px;
+          height: 48px;
+          color: #fff;
+          z-index: 90;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
