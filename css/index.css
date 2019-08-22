@@ -4186,4 +4186,42 @@ main.wrapper-automotive {
           z-index: 90;
           font-size: 18px; }
 
+.wrapper-questions-page {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .wrapper-questions-page .question-page {
+    background-color: lightgray;
+    padding: 30px; }
+    .wrapper-questions-page .question-page h2 {
+      text-align: center;
+      font-size: 80px; }
+    .wrapper-questions-page .question-page p {
+      text-align: center;
+      padding: 20px 0 20px 0; }
+    .wrapper-questions-page .question-page .contact-inform {
+      padding: 20px 0 20px 0; }
+      .wrapper-questions-page .question-page .contact-inform a:hover {
+        color: #ff6733; }
+    .wrapper-questions-page .question-page .form-questions {
+      background: #efefef;
+      margin: auto;
+      color: white;
+      padding: 20px;
+      border: 1px solid #313131; }
+    .wrapper-questions-page .question-page .contact-control-question {
+      background-color: white;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      margin-bottom: 35px; }
+    .wrapper-questions-page .question-page .contact-control-question::placeholder {
+      color: #cfcece; }
+    .wrapper-questions-page .question-page .contact-control-question:focus {
+      background-color: white;
+      color: #313131; }
+    .wrapper-questions-page .question-page .button-send-question {
+      text-align: center; }
+    .wrapper-questions-page .question-page .btn-send:hover {
+      background: #f15d2c; }
+
 /*# sourceMappingURL=index.css.map */
