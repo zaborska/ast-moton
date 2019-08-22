@@ -220,7 +220,7 @@ $white: white;
       opacity: 0;
       transform-origin: bottom;
       animation: enter 0.2s ease forwards;
-      @for $n from 1 through 3 {
+      @for $n from 1 through 10 {
         &:nth-child(#{$n}) {
           animation-duration: 0.2s + 0.1s * ($n - 1);
           animation-delay: 0.1s * ($n - 1);
