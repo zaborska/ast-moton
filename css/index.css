@@ -4214,14 +4214,10 @@ main.wrapper-automotive {
       color: white;
       border-radius: 5px;
       margin-bottom: 35px; }
-    .wrapper-questions-page .question-page .contact-control-question::placeholder {
-      color: #cfcece; }
-    .wrapper-questions-page .question-page .contact-control-question:focus {
-      background-color: white;
-      color: #313131; }
-    .wrapper-questions-page .question-page .button-send-question {
-      text-align: center; }
-    .wrapper-questions-page .question-page .btn-send:hover {
-      background: #f15d2c; }
+      .wrapper-questions-page .question-page .contact-control-question::placeholder {
+        color: #cfcece; }
+      .wrapper-questions-page .question-page .contact-control-question:focus {
+        background-color: white;
+        color: #313131; }
 
 /*# sourceMappingURL=index.css.map */

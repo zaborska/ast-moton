@@ -34,19 +34,15 @@
       color: white;
       border-radius: 5px;
       margin-bottom: 35px;
-    }
-    .contact-control-question::placeholder {
-      color: #cfcece;
-    }
-    .contact-control-question:focus {
-      background-color: white;
-      color: #313131;
-    }
-    .button-send-question {
-      text-align: center;
-    }
-    .btn-send:hover {
-      background: $search-moton-blog;
+
+      &::placeholder {
+        color: #cfcece;
+      }
+
+      &:focus {
+        background-color: white;
+        color: #313131;
+      }
     }
   }
 }
