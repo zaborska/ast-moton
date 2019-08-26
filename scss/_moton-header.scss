@@ -1,6 +1,11 @@
 header.moton-header {
   background-color: $moton-brand-primary;
   padding: 25px;
+  .lang-select {
+    img {
+      width: 32px;
+    }
+  }
 
   .name-block {
     margin-top: -10px;

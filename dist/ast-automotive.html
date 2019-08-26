@@ -104,13 +104,35 @@
         </form>
       </div>
       <div class="divider"></div>
-      <div class="city-selection"><strong>NL</strong>(HQ)</div>
+
+      <div class="dropdown lang-select">
+        <button
+          class="btn btn-secondary dropdown-toggle"
+          type="button"
+          id="dropdownMenuButton"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          <img src="../img/flags/nl.png" alt="flag" /> NL(HQ)
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item active" href="#">
+            <img src="../img/flags/nl.png" alt="flag" /> NL(HQ)
+          </a>
+          <a class="dropdown-item" href="#">
+            <img src="../img/flags/en.png" alt="flag" /> EN
+          </a>
+          <a class="dropdown-item" href="#">
+            <img src="../img/flags/de.png" alt="flag" /> DE
+          </a>
+        </div>
+      </div>
     </div>
   </nav>
 </header>
 
-        
-  <main class="wrapper-automotive">
+         <main class="wrapper-automotive">
   <div class="container">
     <h1>AUTOMOTIVE</h1>
     <div class="row">
@@ -378,8 +400,7 @@
       </div>
     </div>
   </div>
-</main>
-
+</main> 
 
         <!-- FOOTER -->
         <footer class="d-flex align-items-center justify-content-between">
