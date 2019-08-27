@@ -125,6 +125,20 @@ header.moton-header {
   }
 }
 
+//// small desktop
+@media (max-width: $xl) {
+  header.moton-header {
+    .lang-select {
+      img {
+        width: 30px;
+      }
+    }
+    .lang-select-title {
+      display: none;
+    }
+  }
+}
+
 // tablet
 @media (max-width: $md) {
   header.moton-header {

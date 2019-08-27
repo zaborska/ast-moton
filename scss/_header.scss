@@ -138,6 +138,14 @@ header.page-header {
         }
       }
     }
+    .lang-select {
+      img {
+        width: 30px;
+      }
+    }
+    .lang-select-title {
+      display: none;
+    }
   }
 }
 
@@ -160,6 +168,7 @@ header.page-header {
       .search-wrapper {
         font-size: 16px;
       }
+
       // hide desktop menu
       ul.navbar-menu {
         display: none;

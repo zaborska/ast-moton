@@ -3162,7 +3162,11 @@ header.page-header .header-logo {
   header.page-header nav.header-logo ul.navbar-menu {
     font-size: 16px; }
     header.page-header nav.header-logo ul.navbar-menu li {
-      margin: 1px 5px; } }
+      margin: 1px 5px; }
+  header.page-header .lang-select img {
+    width: 30px; }
+  header.page-header .lang-select-title {
+    display: none; } }
 
 @media (max-width: 768px) {
   header.page-header .name-block {
@@ -3813,6 +3817,12 @@ header.moton-header {
         color: #ff6733; }
       header.moton-header ul.navbar-menu > li.active a {
         font-weight: bold; }
+
+@media (max-width: 1200px) {
+  header.moton-header .lang-select img {
+    width: 30px; }
+  header.moton-header .lang-select-title {
+    display: none; } }
 
 @media (max-width: 768px) {
   header.moton-header {
