@@ -3165,6 +3165,8 @@ header.page-header .header-logo {
       margin: 1px 5px; }
   header.page-header .lang-select img {
     width: 30px; }
+  header.page-header .lang-select .dropdown-toggle {
+    padding: 5px; }
   header.page-header .lang-select-title {
     display: none; } }
 
@@ -3821,6 +3823,8 @@ header.moton-header {
 @media (max-width: 1200px) {
   header.moton-header .lang-select img {
     width: 30px; }
+  header.moton-header .lang-select .dropdown-toggle {
+    padding: 5px; }
   header.moton-header .lang-select-title {
     display: none; } }
 
@@ -3829,7 +3833,7 @@ header.moton-header {
     padding: 15px;
     padding-left: 70px; }
     header.moton-header .img-logo img {
-      max-width: 140px; }
+      max-width: 137px; }
     header.moton-header nav {
       display: none !important; }
     header.moton-header .name-block {

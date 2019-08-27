@@ -125,12 +125,15 @@ header.moton-header {
   }
 }
 
-//// small desktop
+// small desktop
 @media (max-width: $xl) {
   header.moton-header {
     .lang-select {
       img {
         width: 30px;
+      }
+      .dropdown-toggle {
+        padding: 5px;
       }
     }
     .lang-select-title {
@@ -146,7 +149,7 @@ header.moton-header {
     padding-left: 70px;
 
     .img-logo img {
-      max-width: 140px;
+      max-width: 137px;
     }
     nav {
       display: none !important; // overwrite Bootstrap class
