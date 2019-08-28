@@ -1,13 +1,14 @@
 .manuals-page {
-  padding: 30px;
+  padding: 50px;
   background-color: $main-bg;
 
-  h1 {
-    text-align: center;
-    font-size: 50px;
-  }
-
   .manuals {
+    background-color: white;
+    padding: 30px;
+    h1 {
+      text-align: center;
+      font-size: 50px;
+    }
     a {
       width: 200px;
       margin: 50px;
@@ -26,6 +27,9 @@
       &:hover {
         color: $ast-brand-primary;
       }
+    }
+    h3 {
+      margin: 30px;
     }
   }
 }
