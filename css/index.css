@@ -4267,15 +4267,22 @@ main.wrapper-automotive {
     padding-bottom: 20px; }
 
 .manuals-page {
+  padding: 30px;
   background-color: #f9f9f9; }
-  .manuals-page .manuals div {
-    padding: 75px;
+  .manuals-page h1 {
+    text-align: center;
+    font-size: 50px; }
+  .manuals-page .manuals a {
+    width: 200px;
+    margin: 50px;
     text-align: center; }
-    .manuals-page .manuals div i {
+    .manuals-page .manuals a i {
       font-size: 100px; }
-  .manuals-page .manuals p {
-    padding-top: 10px; }
-  .manuals-page .manuals a:hover {
-    color: #ff6733; }
+    .manuals-page .manuals a p {
+      margin-top: 10px;
+      color: inherit;
+      font-size: 19px; }
+    .manuals-page .manuals a:hover {
+      color: #ff6733; }
 
 /*# sourceMappingURL=index.css.map */
