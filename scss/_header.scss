@@ -66,7 +66,7 @@ header.page-header {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        transition: all 1s;
+        transition: width 0.5s;
         width: 50px;
         height: 50px;
         background: #eee;
@@ -86,7 +86,7 @@ header.page-header {
         outline: 0;
         border: 0;
         display: none;
-        font-size: 1em;
+        font-size: 16px;
         border-radius: 20px;
         padding: 0 20px;
         background: #eee;
@@ -104,7 +104,7 @@ header.page-header {
         color: $ast-brand-primary;
         text-align: center;
         font-size: 1.2em;
-        transition: all 1s;
+        transition: color, background 0.5s;
       }
 
       form:hover {

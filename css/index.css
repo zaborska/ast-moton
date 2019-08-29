@@ -3112,7 +3112,7 @@ header.page-header .header-logo {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      transition: all 1s;
+      transition: width 0.5s;
       width: 50px;
       height: 50px;
       background: #eee;
@@ -3130,7 +3130,7 @@ header.page-header .header-logo {
       outline: 0;
       border: 0;
       display: none;
-      font-size: 1em;
+      font-size: 16px;
       border-radius: 20px;
       padding: 0 20px;
       background: #eee; }
@@ -3146,7 +3146,7 @@ header.page-header .header-logo {
       color: #ff6733;
       text-align: center;
       font-size: 1.2em;
-      transition: all 1s; }
+      transition: color, background 0.5s; }
     header.page-header .header-logo .search-wrapper form:hover {
       width: 200px;
       cursor: pointer; }
@@ -3756,7 +3756,7 @@ header.moton-header {
       top: 50%;
       left: 50%;
       transform: translate(-100%, -50%);
-      transition: all 1s;
+      transition: width 0.5s;
       width: 50px;
       height: 50px;
       background: #eee;
@@ -3774,7 +3774,7 @@ header.moton-header {
       outline: 0;
       border: 0;
       display: none;
-      font-size: 1em;
+      font-size: 16px;
       border-radius: 20px;
       padding: 0 20px;
       background: #eee; }
@@ -3790,7 +3790,7 @@ header.moton-header {
       color: #f15d2c;
       text-align: center;
       font-size: 1.2em;
-      transition: all 1s; }
+      transition: color, background 0.5s; }
     header.moton-header .search-wrapper form:hover {
       width: 300px;
       cursor: pointer; }
