@@ -4267,7 +4267,7 @@ main.wrapper-automotive {
     padding-bottom: 20px; }
 
 .manuals-page {
-  padding: 50px;
+  padding-top: 50px;
   background-color: #f9f9f9; }
   .manuals-page .manuals {
     background-color: white;
@@ -4275,19 +4275,30 @@ main.wrapper-automotive {
     .manuals-page .manuals h1 {
       text-align: center;
       font-size: 50px; }
-    .manuals-page .manuals a {
+    .manuals-page .manuals .manuals-items a {
       width: 200px;
       margin: 50px;
       text-align: center; }
-      .manuals-page .manuals a i {
+      .manuals-page .manuals .manuals-items a i {
         font-size: 100px; }
-      .manuals-page .manuals a p {
+      .manuals-page .manuals .manuals-items a p {
         margin-top: 10px;
         color: inherit;
         font-size: 19px; }
-      .manuals-page .manuals a:hover {
+      .manuals-page .manuals .manuals-items a:hover {
         color: #ff6733; }
     .manuals-page .manuals h3 {
       margin: 30px; }
+  .manuals-page iframe {
+    width: 100%;
+    height: 600px; }
+  @media (max-width: 768px) {
+    .manuals-page iframe {
+      height: 400px; } }
+  @media (max-width: 576px) {
+    .manuals-page .manuals .manuals-items a {
+      margin: 10px; }
+    .manuals-page iframe {
+      height: 200px; } }
 
 /*# sourceMappingURL=index.css.map */
