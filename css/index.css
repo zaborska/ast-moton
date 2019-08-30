@@ -4301,24 +4301,24 @@ main.wrapper-automotive {
     .manuals-page iframe {
       height: 200px; } }
 
-main.wrapper-motorcyle {
+main.wrapper-motorcycle {
   background-color: #f9f9f9;
   padding: 50px 0;
   font-size: 16px; }
-  main.wrapper-motorcyle .container {
+  main.wrapper-motorcycle .container {
     background-color: white;
     padding-top: 20px;
     padding-bottom: 20px; }
-    main.wrapper-motorcyle .container h1 {
+    main.wrapper-motorcycle .container h1 {
       text-align: center;
       margin-bottom: 60px; }
-    main.wrapper-motorcyle .container p {
+    main.wrapper-motorcycle .container p {
       color: #263843; }
-    main.wrapper-motorcyle .container .img-motorcyle img {
+    main.wrapper-motorcycle .container .img-motorcycle img {
       max-width: 100%; }
 
 @media (max-width: 576px) {
-  .dampers-motorcyle {
+  .dampers-motorcycle {
     order: 2; } }
 
 main.wrapper-industrial {

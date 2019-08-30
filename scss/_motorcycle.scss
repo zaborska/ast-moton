@@ -1,4 +1,4 @@
-main.wrapper-motorcyle {
+main.wrapper-motorcycle {
   background-color: $main-bg;
   padding: 50px 0;
   font-size: 16px;
@@ -15,7 +15,7 @@ main.wrapper-motorcyle {
     p {
       color: #263843;
     }
-    .img-motorcyle {
+    .img-motorcycle {
       img {
         max-width: 100%;
       }
@@ -24,7 +24,7 @@ main.wrapper-motorcyle {
 }
 
 @media (max-width: $sm) {
-  .dampers-motorcyle {
+  .dampers-motorcycle {
     order: 2;
   }
 }
