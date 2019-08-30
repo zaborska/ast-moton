@@ -1,0 +1,30 @@
+main.wrapper-motorcyle {
+  background-color: $main-bg;
+  padding: 50px 0;
+  font-size: 16px;
+  .container {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    h1 {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    p {
+      color: #263843;
+    }
+    .img-motorcyle {
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: $sm) {
+  .dampers-motorcyle {
+    order: 2;
+  }
+}

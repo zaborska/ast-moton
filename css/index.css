@@ -4301,4 +4301,24 @@ main.wrapper-automotive {
     .manuals-page iframe {
       height: 200px; } }
 
+main.wrapper-motorcyle {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  font-size: 16px; }
+  main.wrapper-motorcyle .container {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    main.wrapper-motorcyle .container h1 {
+      text-align: center;
+      margin-bottom: 60px; }
+    main.wrapper-motorcyle .container p {
+      color: #263843; }
+    main.wrapper-motorcyle .container .img-motorcyle img {
+      max-width: 100%; }
+
+@media (max-width: 576px) {
+  .dampers-motorcyle {
+    order: 2; } }
+
 /*# sourceMappingURL=index.css.map */
