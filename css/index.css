@@ -4045,6 +4045,10 @@ main.wrapper-automotive {
     main.wrapper-automotive .container .img-automotive img {
       max-width: 100%; }
 
+@media (max-width: 576px) {
+  .automotive-products {
+    order: 2; } }
+
 .home-wrapper .product-choose {
   padding: 20px 0;
   background-color: #ff6733; }

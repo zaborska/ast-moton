@@ -29,3 +29,8 @@ main.wrapper-automotive {
     }
   }
 }
+@media (max-width: $sm) {
+  .automotive-products {
+    order: 2;
+  }
+}
