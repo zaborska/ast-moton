@@ -4321,4 +4321,24 @@ main.wrapper-motorcyle {
   .dampers-motorcyle {
     order: 2; } }
 
+main.wrapper-industrial {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  font-size: 16px; }
+  main.wrapper-industrial .container {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    main.wrapper-industrial .container h1 {
+      text-align: center;
+      margin-bottom: 60px; }
+    main.wrapper-industrial .container p {
+      color: #263843; }
+    main.wrapper-industrial .container .img-industrial img {
+      max-width: 100%; }
+
+@media (max-width: 576px) {
+  .industrial-products {
+    order: 2; } }
+
 /*# sourceMappingURL=index.css.map */
