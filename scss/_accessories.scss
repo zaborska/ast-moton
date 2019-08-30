@@ -1,0 +1,32 @@
+main.wrapper-accessories {
+  background-color: $main-bg;
+  padding: 50px 0;
+  font-size: 16px;
+  .container {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    h1 {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    h5 {
+      color: $search-moton-blog;
+    }
+
+    p {
+      color: #263843;
+    }
+    .img-accessories {
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}
+@media (max-width: $sm) {
+  .accessories-products {
+    order: 2;
+  }
+}
