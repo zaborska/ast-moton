@@ -4383,7 +4383,7 @@ main.wrapper-faq {
     main.wrapper-faq .acc dt > a {
       text-align: center;
       font-weight: 300;
-      padding: 2em;
+      padding: 23px;
       display: block;
       text-decoration: none;
       color: #fff;
@@ -4403,7 +4403,7 @@ main.wrapper-faq {
     main.wrapper-faq .acc_title:before {
       content: "+";
       font-size: 1.5em;
-      line-height: 0.5em;
+      line-height: 24px;
       float: left;
       transition: transform 0.3s ease-in-out; }
     main.wrapper-faq .acc_title:hover {
