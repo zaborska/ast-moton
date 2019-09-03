@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>AST | MOTON</title>
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="../css/index.css" />
+  </head>
+
+  <body class="moton-style">
+    <div id="mobile" class="shift-right-effect">
+      <div id="burgerBtn"></div>
+      <ul id="nav">
+        <li><a href="#">Home</a></li>
+<li>
+  <a
+    data-toggle="collapse"
+    href="#collapseExample"
+    role="button"
+    aria-expanded="false"
+    aria-controls="collapseExample"
+  >
+    Products
+  </a>
+  <ul class="collapse submenu" id="collapseExample">
+    <li><a href="#">Automotive</a></li>
+    <li><a href="#">Motorcycle</a></li>
+    <li><a href="#">Industrial</a></li>
+    <li><a href="#">Accessories</a></li>
+    <li><a href="#">Product finder</a></li>
+  </ul>
+</li>
+<li><a href="#">News</a></li>
+<li>
+  <a
+    data-toggle="collapse"
+    href="#support"
+    role="button"
+    aria-expanded="false"
+    aria-controls="support"
+  >
+    Support
+  </a>
+  <ul class="collapse submenu" id="support">
+    <li><a href="#">Tech talk</a></li>
+    <li><a href="#">Service</a></li>
+    <li><a href="#">Q & A</a></li>
+  </ul>
+</li>
+<li><a href="#">About</a></li>
+<li><a href="#">Contact</a></li>
+
+      </ul>
+      <div id="mobileBodyContent">
+        <!-- HEADER -->
+        <header class="container-fluid moton-header">
+  <div class="d-flex justify-content-between header-wrapper align-items-center">
+    <div class="name-block">
+      AST | MOTON
+    </div>
+
+    <div class="img-logo align-items-center">
+      <img src="../img/moton/moton-logo.svg" alt="ast-logo" />
+    </div>
+
+    <div class="search-wrapper d-flex">
+      <div class="search">
+        <form action="">
+          <input type="search" placeholder="Find your dealer" />
+          <i class="fas fa-search"></i>
+        </form>
+      </div>
+      <div class="divider"></div>
+      <div class="dropdown lang-select">
+        <button
+          class="btn btn-secondary dropdown-toggle"
+          type="button"
+          id="dropdownMenuButton"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          <img src="../img/flags/nl.png" alt="flag" />
+          <span class="lang-select-title">NL(HQ)</span>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item active" href="#">
+            <img src="../img/flags/nl.png" alt="flag" /> NL(HQ)
+          </a>
+          <a class="dropdown-item" href="#">
+            <img src="../img/flags/en.png" alt="flag" /> EN
+          </a>
+          <a class="dropdown-item" href="#">
+            <img src="../img/flags/de.png" alt="flag" /> DE
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="d-flex justify-content-start">
+    <ul class="menu navbar-menu">
+      <li class="menu-item"><a href="#">Home</a></li>
+      <li class="menu-item">
+        <a href="#">Products</a>
+        <ul class="sub-menu">
+          <li class="menu-item"><a href="#">Automotive</a></li>
+          <li class="menu-item"><a href="#">Motorcycle</a></li>
+          <li class="menu-item"><a href="#">Industrial</a></li>
+          <li class="menu-item"><a href="#">Accessories</a></li>
+          <li class="menu-item"><a href="#">Product finder</a></li>
+        </ul>
+      </li>
+      <li class="menu-item"><a href="#">News</a></li>
+      <li class="menu-item">
+        <a href="#">Support</a>
+        <ul class="sub-menu">
+          <li class="menu-item"><a href="#">Tech talk</a></li>
+          <li class="menu-item"><a href="#">Service</a></li>
+          <li class="menu-item"><a href="#">Q & A</a></li>
+        </ul>
+      </li>
+      <li class="menu-item"><a href="#">About</a></li>
+      <li class="menu-item"><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+ 
+<!-- SLIDER -->
+<!-- SLIDER -->
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <!-- SLIDE 1 -->
+    <div class="carousel-item active">
+      <img src="../img/carousel/moton/01.png" class="d-block w-100" alt="..." />
+      <div class="slider-text top-right carousel-caption1 animated fadeInDown">
+        <button class="btn btn-primary btn-hover">EXPLORE HERE</button>
+      </div>
+    </div>
+
+    <!-- SLIDE 2 -->
+    <div class="carousel-item">
+      <img src="../img/carousel/moton/02.png" class="d-block w-100" alt="..." />
+      <div
+        class="slider-text bottom-left carousel-caption1 animated fadeInDown"
+      >
+        <h1 class="header black-header">
+          Suspension for Champions
+        </h1>
+        <button class="btn btn-primary btn-hover">EXPLORE HERE</button>
+      </div>
+    </div>
+
+    <!-- SLIDE 3 -->
+    <div class="carousel-item">
+      <img src="../img/carousel/moton/03.png" class="d-block w-100" alt="..." />
+      <div class="slider-text top-left carousel-caption1 animated fadeInDown">
+        <h1 class="header white-header">
+          Harder
+          <br />
+          Faster
+          <br />
+          Stronger
+        </h1>
+        <button class="btn btn-primary btn-hover">EXPLORE HERE</button>
+      </div>
+    </div>
+
+    <!-- SLIDE 4 -->
+    <div class="carousel-item">
+      <img src="../img/carousel/moton/04.png" class="d-block w-100" alt="..." />
+      <div class="slider-text top-right carousel-caption1 animated fadeInDown">
+        <h1 class="header white-header">
+          Project Perfect
+        </h1>
+        <button class="btn btn-primary btn-hover">EXPLORE HERE</button>
+      </div>
+    </div>
+
+    <!-- SLIDE 5 -->
+    <div class="carousel-item">
+      <img src="../img/carousel/moton/05.png" class="d-block w-100" alt="..." />
+      <div class="slider-text top-left carousel-caption1 animated fadeInDown">
+        <h1 class="header black-header">
+          Born to perform
+        </h1>
+        <button class="btn btn-primary btn-hover">EXPLORE HERE</button>
+      </div>
+    </div>
+
+    <!-- SLIDE 6 -->
+    <div class="carousel-item">
+      <img src="../img/carousel/moton/06.png" class="d-block w-100" alt="..." />
+      <div class="slider-text top-left carousel-caption1 animated fadeInDown">
+        <h1 class="header white-header">
+          Life’s to short to drive slow
+        </h1>
+        <button class="btn btn-primary btn-hover">EXPLORE HERE</button>
+      </div>
+    </div>
+
+    <!-- SLIDE 7 -->
+    <div class="carousel-item">
+      <img src="../img/carousel/moton/07.png" class="d-block w-100" alt="..." />
+      <div
+        class="slider-text bottom-left carousel-caption1 animated fadeInDown"
+      >
+        <h1 class="header white-header">
+          Push it to the limit
+        </h1>
+        <button class="btn btn-primary btn-hover">EXPLORE HERE</button>
+      </div>
+    </div>
+
+    <!--SLIDE 11-->
+    <div class="carousel-item">
+      <video
+        class="afterglow d-block w-100"
+        width="1920"
+        height="1080"
+        id="my-video"
+        src="../video/slider.mov"
+        muted="muted"
+      ></video>
+    </div>
+  </div>
+  <a
+    class="carousel-control-prev"
+    href="#carouselExampleCaptions"
+    role="button"
+    data-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a
+    class="carousel-control-next"
+    href="#carouselExampleCaptions"
+    role="button"
+    data-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+<!-- MAIN CONTENT: -->
+<div class="manuals-page">
+  <div class="container">
+    <div class="manuals">
+      <h1>Tech talk</h1>
+      <div
+        class="d-flex justify-content-center flex-column flex-sm-row align-items-center align-items-sm-start manuals-items"
+      >
+        <a href="#" target="_blank">
+          <i class="fas fa-file-pdf"></i>
+          <p>How to change the suspension?</p>
+        </a>
+        <a href="#" target="_blank">
+          <i class="fas fa-file-pdf"></i>
+          <p>How to change springs?</p>
+        </a>
+        <a href="#" target="_blank">
+          <i class="fas fa-file-pdf"></i>
+          <p>Product Certificate</p>
+        </a>
+      </div>
+      <div class="text-center">
+        <div>
+          <h3>How to change the suspension?</h3>
+
+          <iframe
+            src="https://www.youtube.com/embed/uvlxpIO_moo"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <div>
+          <h3>How to change springs?</h3>
+
+          <iframe
+            src="https://www.youtube.com/embed/Ob1xJ3-q2rs"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+
+        <!-- FOOTER -->
+        <footer class="d-flex align-items-center justify-content-between">
+  <div class="img-logo">
+    <img src="../img/moton/moton-logo.svg" alt="logo"/>
+  </div>
+
+  <div class="footer-navs">
+    <nav class="website-menu">
+      <ul class="menu navbar-menu nav-centered footer-menu">
+        <li class="menu-item">
+          <a href="#">Home</a>
+        </li>
+        <li class="menu-item">
+          <a>Products</a>
+          <ul class="sub-menu">
+            <li class="menu-item">
+              <a href="#">Automotive</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Motorcycle</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Industrial</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Accessories</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Product finder</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <a href="#">News</a>
+        </li>
+        <li class="menu-item">
+          <a>Support</a>
+          <ul class="sub-menu">
+            <li class="menu-item">
+              <a href="#">Tech talk</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Service</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Q & A</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <a href="#">About</a>
+        </li>
+        <li class="menu-item">
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <nav class="social">
+      <ul class="nav-centered">
+        <li>
+          <a href="#">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <nav class="policies">
+      <ul class="nav-centered">
+        <li>
+          <a href="#">Terms of service</a>
+        </li>
+        <li>
+          <a href="#">Privacy Policy</a>
+        </li>
+        <li>
+          <a href="#">Copyright & Trademark</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <address>
+    <p>
+      <img src="../img/contact/icons/loc_white.png" alt="" class="img-icons"/>
+      De Vest 68
+    </p>
+    <div class="footer-address">
+      <p>5555 XP Valkenswaard</p>
+      <p>The Netherlands</p>
+    </div>
+    <p>
+      <a href="tel:031 (0)40 2074620">
+        <img src="../img/contact/icons/phone_white.png" alt="" class="img-icons"/>
+        T: 031 (0)40 2074620
+      </a>
+    </p>
+    <p>
+      <a href="mailto:info@ast-suspension.com">
+        <img src="../img/contact/icons/mail_white.png" alt="" class="img-icons"/>
+        E: info@ast-suspension.com
+      </a>
+    </p>
+  </address>
+</footer>
+      </div>
+    </div>
+    <div class="sticky-sidebar">
+  <ul>
+    <li>
+      <a href="#">
+        <div class="icon-block">
+          <i class="fas fa-home"></i>
+        </div>
+        <div class="title">Home</div>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <div class="icon-block">
+          <i class="fas fa-mobile"></i>
+        </div>
+        <div class="title">Telephone</div>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <div class="icon-block">
+          <i class="fas fa-envelope"></i>
+        </div>
+        <div class="title">Contact</div>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <div class="icon-block">
+          <i class="fas fa-at"></i>
+        </div>
+        <div class="title">Mail</div>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/afterglowplayer@1.x"
+    ></script>
+    <script src="../js/index.js"></script>
+  </body>
+</html>
