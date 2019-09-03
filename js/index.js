@@ -8,6 +8,6 @@ burgerBtn.addEventListener("click", () => {
 // tooltips
 // TEMP SOLUTION
 
-// setTimeout(function() {
-//   $('[data-toggle="tooltip"]').tooltip();
-// }, 1000);
+setTimeout(function() {
+  $('[data-toggle="tooltip"]').tooltip();
+}, 1000);
