@@ -4367,85 +4367,80 @@ main.wrapper-accessories {
   .accessories-products {
     order: 2; } }
 
-.acc {
-  position: relative;
-  background-color: #fff; }
-  .acc dl {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); }
-    .acc dl:after {
-      content: "";
+main.wrapper-faq {
+  background: #f9f9f9; }
+  main.wrapper-faq .acc {
+    position: relative;
+    background-color: #fff; }
+    main.wrapper-faq .acc dl {
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); }
+      main.wrapper-faq .acc dl:after {
+        content: "";
+        display: block;
+        height: 1em;
+        width: 100%;
+        background-color: #ff6733; }
+    main.wrapper-faq .acc dt > a {
+      text-align: center;
+      font-weight: 300;
+      padding: 2em;
       display: block;
-      height: 1em;
-      width: 100%;
-      background-color: #2980b9; }
-  .acc dt > a {
-    text-align: center;
-    font-weight: 300;
-    padding: 2em;
-    display: block;
-    text-decoration: none;
-    color: #fff;
-    transition: background-color 0.5s ease-in-out; }
-  .acc dd {
-    margin: 0;
-    background-color: #fff;
-    font-size: 1em;
-    line-height: 1.5em;
-    background-clip: text; }
-    .acc dd > p {
-      padding: 1em 2em 1em 2em; }
-
-.acc_title {
-  background-color: #3498db;
-  border-bottom: 1px solid #258cd1; }
-  .acc_title:before {
-    content: "+";
-    font-size: 1.5em;
-    line-height: 0.5em;
-    float: left;
-    transition: transform 0.3s ease-in-out; }
-  .acc_title:hover {
-    background-color: #2980b9; }
-
-.acc_title_active {
-  background-color: #2980b9; }
-  .acc_title_active:before {
-    transform: rotate(-225deg); }
-
-.acc_panel {
-  height: auto;
-  overflow: hidden; }
-
-@media all {
-  .acc_panel {
-    max-height: 50em;
-    transition: max-height 1s; } }
-
-@media screen and (min-width: 48em) {
-  .acc_panel {
-    max-height: 15em;
-    transition: max-height 0.5s; } }
-
-.acc_panel_col {
-  max-height: 0; }
-
-.anim_in {
-  animation-name: acc_in;
-  animation-duration: 0.65s;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: both;
-  animation-delay: 0s; }
-
-.anim_out {
-  animation-name: acc_out;
-  animation-duration: 0.75s;
-  animation-iteration-count: 1;
-  animation-direction: alternate;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: both;
-  animation-delay: 0s; }
+      text-decoration: none;
+      color: #fff;
+      transition: background-color 0.5s ease-in-out; }
+    main.wrapper-faq .acc dd {
+      margin: 0;
+      background-color: #fff;
+      font-size: 1em;
+      line-height: 1.5em;
+      background-clip: text; }
+      main.wrapper-faq .acc dd > p {
+        padding: 1em 2em 1em 2em; }
+  main.wrapper-faq .acc_title {
+    background-color: #ff855c;
+    border-bottom: 1px solid #ff6733;
+    font-size: 20px; }
+    main.wrapper-faq .acc_title:before {
+      content: "+";
+      font-size: 1.5em;
+      line-height: 0.5em;
+      float: left;
+      transition: transform 0.3s ease-in-out; }
+    main.wrapper-faq .acc_title:hover {
+      background-color: #ff6733; }
+  main.wrapper-faq .acc_title_active {
+    background-color: #ff6733; }
+    main.wrapper-faq .acc_title_active:before {
+      transform: rotate(-225deg); }
+  main.wrapper-faq .acc_panel {
+    height: auto;
+    overflow: hidden; }
+  @media all {
+    main.wrapper-faq .acc_panel {
+      max-height: 50em;
+      transition: max-height 1s; } }
+  @media screen and (min-width: 48em) {
+    main.wrapper-faq .acc_panel {
+      max-height: 15em;
+      transition: max-height 0.5s; } }
+  main.wrapper-faq .acc_panel_col {
+    max-height: 0; }
+  main.wrapper-faq .anim_in {
+    animation-name: acc_in;
+    animation-duration: 0.65s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-delay: 0s; }
+  main.wrapper-faq .anim_out {
+    animation-name: acc_out;
+    animation-duration: 0.75s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-delay: 0s; }
 
 @keyframes acc_in {
   0% {
