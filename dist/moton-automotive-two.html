@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>AST | MOTON</title>
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="../css/index.css" />
+  </head>
+
+  <body class="moton-style">
+    <div id="mobile" class="shift-right-effect">
+      <div id="burgerBtn"></div>
+      <ul id="nav">
+        <li><a href="#">Home</a></li>
+<li>
+  <a
+    data-toggle="collapse"
+    href="#collapseExample"
+    role="button"
+    aria-expanded="false"
+    aria-controls="collapseExample"
+  >
+    Products
+  </a>
+  <ul class="collapse submenu" id="collapseExample">
+    <li><a href="#">Automotive</a></li>
+    <li><a href="#">Motorcycle</a></li>
+    <li><a href="#">Industrial</a></li>
+    <li><a href="#">Accessories</a></li>
+    <li><a href="#">Product finder</a></li>
+  </ul>
+</li>
+<li><a href="#">News</a></li>
+<li>
+  <a
+    data-toggle="collapse"
+    href="#support"
+    role="button"
+    aria-expanded="false"
+    aria-controls="support"
+  >
+    Support
+  </a>
+  <ul class="collapse submenu" id="support">
+    <li><a href="#">Tech talk</a></li>
+    <li><a href="#">Service</a></li>
+    <li><a href="#">Q & A</a></li>
+  </ul>
+</li>
+<li><a href="#">About</a></li>
+<li><a href="#">Contact</a></li>
+
+      </ul>
+      <div id="mobileBodyContent">
+        <!-- HEADER -->
+        <header class="container-fluid moton-header">
+  <div class="d-flex justify-content-between header-wrapper align-items-center">
+    <div class="name-block">
+      AST | MOTON
+    </div>
+
+    <div class="img-logo align-items-center">
+      <img src="../img/moton/moton-logo.svg" alt="ast-logo" />
+    </div>
+
+    <div class="search-wrapper d-flex">
+      <div class="search">
+        <form action="">
+          <input type="search" placeholder="Find your dealer" />
+          <i class="fas fa-search"></i>
+        </form>
+      </div>
+      <div class="divider"></div>
+      <div class="dropdown lang-select">
+        <button
+          class="btn btn-secondary dropdown-toggle"
+          type="button"
+          id="dropdownMenuButton"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          <img src="../img/flags/nl.png" alt="flag" />
+          <span class="lang-select-title">NL(HQ)</span>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item active" href="#">
+            <img src="../img/flags/nl.png" alt="flag" /> NL(HQ)
+          </a>
+          <a class="dropdown-item" href="#">
+            <img src="../img/flags/en.png" alt="flag" /> EN
+          </a>
+          <a class="dropdown-item" href="#">
+            <img src="../img/flags/de.png" alt="flag" /> DE
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="d-flex justify-content-start">
+    <ul class="menu navbar-menu">
+      <li class="menu-item"><a href="#">Home</a></li>
+      <li class="menu-item">
+        <a href="#">Products</a>
+        <ul class="sub-menu">
+          <li class="menu-item"><a href="#">Automotive</a></li>
+          <li class="menu-item"><a href="#">Motorcycle</a></li>
+          <li class="menu-item"><a href="#">Industrial</a></li>
+          <li class="menu-item"><a href="#">Accessories</a></li>
+          <li class="menu-item"><a href="#">Product finder</a></li>
+        </ul>
+      </li>
+      <li class="menu-item"><a href="#">News</a></li>
+      <li class="menu-item">
+        <a href="#">Support</a>
+        <ul class="sub-menu">
+          <li class="menu-item"><a href="#">Tech talk</a></li>
+          <li class="menu-item"><a href="#">Service</a></li>
+          <li class="menu-item"><a href="#">Q & A</a></li>
+        </ul>
+      </li>
+      <li class="menu-item"><a href="#">About</a></li>
+      <li class="menu-item"><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+ 
+<!-- MAIN CONTENT: ABOUT -->
+<main class="wrapper-automotive">
+  <div class="container">
+    <h1>AUTOMOTIVE</h1>
+    <div class="row">
+      <div class="col-md-5">
+        <h5 class="mt-2">
+          MOTON 1-way
+        </h5>
+        <p class="mt-2">
+          Like the name might explain already, the 1-way is a single adjustable
+          damper.It is the same quality mono tube damper system that you already
+          know from our line-up.This kit also includes the 22mm shaft and 44mm
+          piston and therefor perfectly useable for racing and street or
+          trackdays. The 22mm shaft together with our new low friction seals are
+          set for fast responses and good feedback during massive side load.
+          This is the perfect answer for racers that are not allowed to run
+          canisters/reservoirsin their classor for people that simply love the
+          non-remote setup.
+        </p>
+        <p>
+          <strong>Benefits include</strong>
+          <i
+            class="fas fa-info-circle"
+            data-toggle="tooltip"
+            data-placement="top"
+            data-html="true"
+            title="Custom setup for your goals<br>
+            Easy adjustable with 1 knob <br>
+            Track proven system<br>
+            Wide range of springs can be used<br>
+            Rebuild able / revalve able<br>"
+          >
+          </i>
+        </p>
+        <p>
+          <strong>Features</strong>
+          <i
+            class="fas fa-info-circle"
+            data-toggle="tooltip"
+            data-placement="top"
+            data-html="true"
+            title="15 click rebound control<br>
+            Height adjustable<br>
+            Non reservoir setup<br>
+            22mm shaft diameter<br>
+            Large main piston for quick response and wide adjustment range<br>
+            Top mounts (camber) supplied where possible/available<br>
+            All hardware included for installation<br>
+            High tensile helper and main springs available as option(!)"
+          >
+          </i>
+        </p>
+      </div>
+      <div class="col-md-7 img-automotive">
+        <img
+          src="../img/automotive-two/one_way_Mazda_Miata_ND_01SMALL.jpg"
+          alt="Mazda_Miata"
+        />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-7 img-automotive mt-5 automotive-products">
+        <img
+          src="../img/automotive-two/moton-internal-2-way.jpg"
+          alt="moton-internal-2-way"
+        />
+      </div>
+      <div class="col-md-5">
+        <h5 class="mt-2">MOTON Internal 2-way</h5>
+        <p class="mt-2">
+          The new “Moton 2-way Non Reservoir“ is a double adjustable damper that
+          is designed with a high performance adjustment system that can adjust
+          compression and rebound damping forces with 2 knobs. These are located
+          on the top of the damper for easy access. The 22mm shaft together with
+          our new low friction seals are set for fast responses and good
+          feedback during massive sideload. This is the perfect answer for
+          racers that are not allowed to run canisters/reservoirsin their
+        </p>
+        <p class="mt-2"><strong class="bigger-txt">Specifications</strong></p>
+        <p class="mt-2">
+          The kit features 12 click compression and 12 click rebound control
+          from lowspeed. Each adjustment is directly noticeable by the driver
+          and they are made for easy setup. The Sport dampers perform really
+          well at low speed as well as high speed velocities which gives you
+          total control regardless of the conditions. The damper bodies are
+          produced from the highest quality steel or aluminium. The shaft are
+          induction hardened and chrome plated.
+        </p>
+        <p>
+          <strong>Benefits include</strong>
+          <i
+            class="fas fa-info-circle"
+            data-toggle="tooltip"
+            data-placement="top"
+            data-html="true"
+            title="Custom setup for your goals<br>
+                    Easy to adjust from comfort to true race setup <br>
+                    Proven reliability<br>
+                    Wide range of springs can be used<br>
+                    Great mechanical grip<br>
+                    Rebuild able / revalve able<br>"
+          >
+          </i>
+        </p>
+        <p>
+          <strong>Features</strong>
+          <i
+            class="fas fa-info-circle"
+            data-toggle="tooltip"
+            data-placement="top"
+            data-html="true"
+            title="Compression adjustable 12 clicks<br>
+                    Rebound adjustable 12 clickse<br>
+                    2 top knob adjustment system<br>
+                    Ride height adjustment<br>
+                    Non reservoir setup<br>
+                    Large main piston for quick response and wide adjustment range<br>
+                    Topmounts(camber) supplied where possible/available<br>
+                    All hardware included for installation<br>
+                    Adjustable gas pressure for added lifting Force<br>
+                    High tensile helper and main springs available as option(!)"
+          >
+          </i>
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-5 mt-5">
+        <h5 class="mt-2">MOTON 2-way</h5>
+        <p class="mt-2">
+          The Sport line is designed for the serious club racer and high
+          performance street driver. Featuring remote reservoirs for superior
+          fluid temperature control, quick release hydraulic lines (on most
+          models) for easy installation, separate compression and rebound damper
+          valving adjustment and height adjustable spring perches, this kit is
+          beyond the more common coil-over systems on the market. If your
+          driving can benefit for the ultimate in suspension tuning, then this
+          kit is for you.
+        </p>
+        <p class="mt-2">
+          <strong class="bigger-txt">Specifications</strong>
+        </p>
+        <p class="mt-2">
+          The Moton Sport damper features 15 positions of bump adjustment on the
+          remote reservoir and 15 positions of rebound on top of the piston rod.
+          Each adjustment done to the damper is very noticeable to the driver.
+          Our Moton Sport dampers are designed to be uncomplicated, easy to use
+          and to deliver the absolute bestperformance. The Sport dampers perform
+          really well at low speed as well as high speed velocities which gives
+          you total control regardless of the conditions. The reservoir is
+          connected by a high pressure hose and is equipped with swivel banjo’s
+          for easy installation of the canisters in the car regardless of the
+          position. The damper bodies are produced from the highest quality
+          steel or aluminium. The shaft are induction hardened and chrome
+          plated. The canister pressure can be varied between 6 -18 bar (100
+          -300 psi) to help support the car in high speed cornering with soft
+          springs.
+        </p>
+        <p>
+          <strong>Benefits include</strong>
+          <i
+            class="fas fa-info-circle"
+            data-toggle="tooltip"
+            data-placement="top"
+            data-html="true"
+            title="Easy to adjust to a real race setup<br>
+                            Easy to work with <br>
+                            Proven reliability<br>
+                            Wide range of springs can be used<br>
+                            Improved platform stability<br>
+                            Improved traction, higher grip level<br>
+                            Improved curb stone and bumpy track control<br>
+                            Rebuild able / revalve able"
+          >
+          </i>
+        </p>
+        <p>
+          <strong>Features</strong>
+          <i
+            class="fas fa-info-circle"
+            data-toggle="tooltip"
+            data-placement="top"
+            data-html="true"
+            title="SeparateBump (15) and rebound (15) control<br>
+                        Ride height adjustable<br>
+                        Unique blow off valve system in remote reservoirs<br>
+                        Large piston rod diameter for more fluid displacement<br>
+                        Adjustable gas pressure for added lifting Force<br>
+                        Large main piston for quick response<br>
+                        No preloaded valve stacks needed for low speed damping control<br>
+                        Swivel banjo hoses for easy installation of remote reservoirs<br>"
+          >
+          </i>
+        </p>
+      </div>
+      <div class="col-md-7 img-automotive mt-5">
+        <img
+          src="../img/automotive-two/2-way-BMW-E9X-M3.jpg"
+          alt="2-way-BMW-E9X-M3"
+        />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-7 img-automotive automotive-products">
+        <img
+          src="../img/automotive-two/3-way-M-505-026-BMW-E46-M3.jpg"
+          alt="3-way-M-505-026-BMW-E46-M3"
+        />
+      </div>
+      <div class="col-md-5">
+        <h5 class="mt-2">Moton 3-Way</h5>
+        <p class="mt-2">
+          The 3-way Motorsport suspension is designed for the professional
+          racer. This ultimate suspension system is by far the finest quality
+          and best handling suspension system on the market today.
+        </p>
+        <p class="mt-2">
+          Featuring remote reservoirs for superior fluid temperature control,
+          quick release hydraulic lines (on most models) for easy installation,
+          separate compression and rebound damper valving adjustment and height
+          adjustable spring perches, this kit is beyond the more common
+          coil-over systems on the market. If your driving can benefit for the
+          ultimate in suspension tuning, then this kit is for you.
+        </p>
+        <p class="mt-2">
+          The 3-Way adjustable Moton damper features 15 positions of high speed
+          bump, 6 positions low speed bump and 15 positions of rebound
+          adjustment. The low speed bump adjuster is located on top of the high
+          speed bump adjuster and can be adjusted in dependably. The low speed
+          bump adjuster is very effective in helping to control body roll while
+          adding to turn in and is effective in controlling pitch and squat. The
+          3-Way adjustable Moton damper is using, like the double adjustable
+          damper, a unique blow off valve system in the canister to totally
+          control curb stones and bumpy track conditions.
+        </p>
+        <p>
+          <strong>Benefits include</strong>
+          <i
+            class="fas fa-info-circle"
+            data-toggle="tooltip"
+            data-placement="top"
+            data-html="true"
+            title="Improved platform stability<br>
+                                Improved traction, higher grip level <br>
+                                    Improved curbstone and bumpy track control<br>
+                                    Improved tyre wear over race distance<br>
+                                    Easy to adjust and work with<br>
+                                    Every single adjustment done is very noticeableto the driver<br>
+                                    Proven reliability<br>
+                                    Rebuild able / revalve able"
+          >
+          </i>
+        </p>
+        <p>
+          <strong>Features</strong>
+          <i
+            class="fas fa-info-circle"
+            data-toggle="tooltip"
+            data-placement="top"
+            data-html="true"
+            title="Unique blow off valve system in canister for high speed bump control<br>
+                            Large piston rod diameter for more fluid displacement<br>
+                                Adjustable gas pressure for added lifting force<br>
+                                Large main piston for quick response<br>
+                                No preloaded valve stacks needed for low speed damping control<br>
+                                SeparateBump and Rebound control<br>
+                                Swivel banjo hoses for easy installation of remote reservoirs<br>"
+          >
+          </i>
+        </p>
+      </div>
+    </div>
+  </div>
+</main>
+ 
+
+        <!-- FOOTER -->
+        <footer class="d-flex align-items-center justify-content-between">
+  <div class="img-logo">
+    <img src="../img/moton/moton-logo.svg" alt="logo"/>
+  </div>
+
+  <div class="footer-navs">
+    <nav class="website-menu">
+      <ul class="menu navbar-menu nav-centered footer-menu">
+        <li class="menu-item">
+          <a href="#">Home</a>
+        </li>
+        <li class="menu-item">
+          <a>Products</a>
+          <ul class="sub-menu">
+            <li class="menu-item">
+              <a href="#">Automotive</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Motorcycle</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Industrial</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Accessories</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Product finder</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <a href="#">News</a>
+        </li>
+        <li class="menu-item">
+          <a>Support</a>
+          <ul class="sub-menu">
+            <li class="menu-item">
+              <a href="#">Tech talk</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Service</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Q & A</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <a href="#">About</a>
+        </li>
+        <li class="menu-item">
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <nav class="social">
+      <ul class="nav-centered">
+        <li>
+          <a href="#">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <nav class="policies">
+      <ul class="nav-centered">
+        <li>
+          <a href="#">Terms of service</a>
+        </li>
+        <li>
+          <a href="#">Privacy Policy</a>
+        </li>
+        <li>
+          <a href="#">Copyright & Trademark</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <address>
+    <p>
+      <img src="../img/contact/icons/loc_white.png" alt="" class="img-icons"/>
+      De Vest 68
+    </p>
+    <div class="footer-address">
+      <p>5555 XP Valkenswaard</p>
+      <p>The Netherlands</p>
+    </div>
+    <p>
+      <a href="tel:031 (0)40 2074620">
+        <img src="../img/contact/icons/phone_white.png" alt="" class="img-icons"/>
+        T: 031 (0)40 2074620
+      </a>
+    </p>
+    <p>
+      <a href="mailto:info@ast-suspension.com">
+        <img src="../img/contact/icons/mail_white.png" alt="" class="img-icons"/>
+        E: info@ast-suspension.com
+      </a>
+    </p>
+  </address>
+</footer>
+      </div>
+    </div>
+    <div class="sticky-sidebar">
+  <ul>
+    <li>
+      <a href="#">
+        <div class="icon-block">
+          <i class="fas fa-home"></i>
+        </div>
+        <div class="title">Home</div>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <div class="icon-block">
+          <i class="fas fa-mobile"></i>
+        </div>
+        <div class="title">Telephone</div>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <div class="icon-block">
+          <i class="fas fa-envelope"></i>
+        </div>
+        <div class="title">Contact</div>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <div class="icon-block">
+          <i class="fas fa-at"></i>
+        </div>
+        <div class="title">Mail</div>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/afterglowplayer@1.x"
+    ></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/accordion.js"></script>
+  </body>
+</html>
