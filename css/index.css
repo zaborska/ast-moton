@@ -4089,7 +4089,11 @@ main.wrapper-automotive {
   overflow: hidden;
   margin: 0; }
   .home-wrapper .product-nav-item img {
-    max-height: 100%; }
+    max-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
   .home-wrapper .product-nav-item figcaption {
     position: absolute;
     bottom: 0;
@@ -4140,6 +4144,9 @@ main.wrapper-automotive {
     text-align: center; }
     .home-wrapper .info-block .info-icon i {
       font-size: 60px; }
+    @media (max-width: 576px) {
+      .home-wrapper .info-block .info-icon {
+        margin-bottom: 30px; } }
 
 .product-wrapper .img-banner img {
   max-width: 100%; }
