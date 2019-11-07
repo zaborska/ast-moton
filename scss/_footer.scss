@@ -144,12 +144,16 @@ footer {
       .policies {
         margin: 15px;
       }
+
+      .policies .nav-centered li {
+        text-align: center;
+      }
     }
 
     address {
       text-align: center;
       p {
-        display: inline-block;
+        display: block;
         margin: 5px;
       }
     }
