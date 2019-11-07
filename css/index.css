@@ -3147,14 +3147,23 @@ header.page-header .header-logo {
       text-align: center;
       font-size: 1.2em;
       transition: color, background 0.5s; }
+    @media (min-width: 768px) {
+      header.page-header .header-logo .search-wrapper form {
+        width: 200px;
+        cursor: pointer; }
+        header.page-header .header-logo .search-wrapper form input {
+          display: block; }
+        header.page-header .header-logo .search-wrapper form .fas {
+          background: #ff6733;
+          color: white; } }
     header.page-header .header-logo .search-wrapper form:hover {
       width: 200px;
       cursor: pointer; }
-    header.page-header .header-logo .search-wrapper form:hover input {
-      display: block; }
-    header.page-header .header-logo .search-wrapper form:hover .fas {
-      background: #ff6733;
-      color: white; }
+      header.page-header .header-logo .search-wrapper form:hover input {
+        display: block; }
+      header.page-header .header-logo .search-wrapper form:hover .fas {
+        background: #ff6733;
+        color: white; }
 
 @media (max-width: 1200px) {
   header.page-header nav.header-logo img {
@@ -3791,14 +3800,23 @@ header.moton-header {
       text-align: center;
       font-size: 1.2em;
       transition: color, background 0.5s; }
+    @media (min-width: 768px) {
+      header.moton-header .search-wrapper form {
+        width: 300px;
+        cursor: pointer; }
+        header.moton-header .search-wrapper form input {
+          display: block; }
+        header.moton-header .search-wrapper form .fas {
+          background: #ff6733;
+          color: white; } }
     header.moton-header .search-wrapper form:hover {
       width: 300px;
       cursor: pointer; }
-    header.moton-header .search-wrapper form:hover input {
-      display: block; }
-    header.moton-header .search-wrapper form:hover .fas {
-      background: #ff6733;
-      color: white; }
+      header.moton-header .search-wrapper form:hover input {
+        display: block; }
+      header.moton-header .search-wrapper form:hover .fas {
+        background: #ff6733;
+        color: white; }
   header.moton-header nav {
     border-top: 1px solid #ffffff;
     margin-top: 25px;

@@ -76,18 +76,30 @@ header.moton-header {
       transition: color, background 0.5s;
     }
 
-    form:hover {
+    @mixin expandSearchForm {
       width: 300px;
       cursor: pointer;
+
+      input {
+        display: block;
+      }
+
+      .fas {
+        background: $ast-brand-primary;
+        color: white;
+      }
     }
 
-    form:hover input {
-      display: block;
+    // form expanded on desktop only
+    @media (min-width: $md) {
+      form {
+        @include expandSearchForm();
+      }
     }
 
-    form:hover .fas {
-      background: $ast-brand-primary;
-      color: white;
+    // expand on hover on other
+    form:hover {
+      @include expandSearchForm();
     }
   }
   nav {
